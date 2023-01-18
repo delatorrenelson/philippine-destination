@@ -1,0 +1,62 @@
+ [
+    {
+      "destination": "Palawan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img1.jpg"
+    },
+    {
+      "destination": "Boracay",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img2.jpg"
+    },
+    {
+      "destination": "Pagudpud",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img3.jpg"
+    },
+    {
+      "destination": "Pangasinan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img4.jpg"
+    },
+    {
+      "destination": "Palawan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img1.jpg"
+    },
+    {
+      "destination": "Boracay",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img2.jpg"
+    },
+    {
+      "destination": "Pagudpud",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img3.jpg"
+    },
+    {
+      "destination": "Pangasinan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img4.jpg"
+    },
+    {
+      "destination": "Palawan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img1.jpg"
+    },
+    {
+      "destination": "Boracay",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img2.jpg"
+    },
+    {
+      "destination": "Pagudpud",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img3.jpg"
+    },
+    {
+      "destination": "Pangasinan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+      "img": "./src/assets/images/img4.jpg"
+    }
+  ]
