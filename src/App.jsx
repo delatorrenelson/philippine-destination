@@ -24,7 +24,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/destinations" element={<Destinations />} />
+          <Route path={`${import.meta.env.BASE_URL}/destinations`} element={<Destinations />} />
           <Route path="/travel-info" element={<TravelInfo />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/hotels" element={<Hotels />} />
