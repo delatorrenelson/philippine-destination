@@ -17,20 +17,21 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  
   return (
     <Router>
-      <div className="App md:w-[90%] m-auto w-full max-w-screen-2xl">
+      <div className="App md:w-[90%] mx-auto w-full max-w-screen-2xl">
         <Header />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path={`${import.meta.env.BASE_URL}/destinations`} element={<Destinations />} />
-          <Route path="/travel-info" element={<TravelInfo />} />
-          <Route path="/booking" element={<Booking />} />
-          <Route path="/hotels" element={<Hotels />} />
-          <Route path="/my-account" element={<MyAccount />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path={`/`} element={<Home />} />
+          <Route path={`/destinations`} element={<Destinations />} />
+          <Route path={`/travel-info`} element={<TravelInfo />} />
+          <Route path={`/booking`} element={<Booking />} />
+          <Route path={`/hotels`} element={<Hotels />} />
+          <Route path={`/my-account`} element={<MyAccount />} />
+          <Route path={`/services`} element={<Services />} />
+          <Route path={`/contact`} element={<Contact />} />
         </Routes>
         <Footer />
       </div>
