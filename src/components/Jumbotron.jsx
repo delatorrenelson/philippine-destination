@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import {Link, NavLink } from "react-router-dom";
 import { places } from "../json/destinations";
 
 export default function Jumbotron() {
@@ -33,7 +33,7 @@ export default function Jumbotron() {
           Make your Hassle-Free travel plans now!
         </h2>
 
-        <NavLink to="/booking">
+        <Link to={`/booking/${rndImg.destination}`} state={rndImg}>
           <button
             className="grn_btn large_btn px-6 py-4 rounded-lg md:text-3xl text-xl text-white
         bg-gradient-to-b from-green-700 to-green-500 
@@ -42,7 +42,7 @@ export default function Jumbotron() {
           >
             {"Book now!"}
           </button>
-        </NavLink>
+        </Link>
       </div>
     </div>
   );

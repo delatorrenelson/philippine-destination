@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 export default function DestinationCard({ destinationProps }) {
   const { destination, description, img } = destinationProps;
@@ -20,11 +20,11 @@ export default function DestinationCard({ destinationProps }) {
         <p className="indent-10 sm:indent-6 item_description text-justify line-clamp-3">
           {description}
         </p>
-        <NavLink to={"/booking"} className={"self-center mt-2"}>
+        <Link to={`/booking/${destination}`} state={destinationProps} className={"self-center mt-2"}>
           <button className="bg-green-700 hover:ring-1 active:bg-green-600 text-white font-medium px-4 py-2 rounded-lg w-fit">
             Book now
           </button>
-        </NavLink>
+        </Link>
       </div>
     </div>
   );

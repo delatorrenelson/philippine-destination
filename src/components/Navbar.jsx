@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import "flowbite";
 
 export const navList = [
   { txt: "Home", href: "/" },
   { txt: "Destinations", href: "/destinations" },
   { txt: "Travel Info", href: "/travel-info" },
-  { txt: "Booking", href: "/booking" },
+  // { txt: "Booking", href: "/booking" },
   { txt: "Hotels", href: "/hotels" },
   { txt: "My Account", href: "/my-account" },
   { txt: "Services", href: "/services" },
@@ -48,14 +48,14 @@ export default function Navbar() {
           <div className="flex items-center place-content-center flex-col mx-auto flex-wrap md:flex-row  md:mt-0 md:text-base md:font-medium  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {navList.map((nav) => {
               return (
-                <NavLink                  
+                <Link                  
                   to={nav.href}
                   key={nav.txt}
                   href={nav.href}                  
                   className=
                     "rounded-md align-middle over:bg-blue-700 active:ring-4 active:text-gray-400 md:px-6 px-4 py-2 transition-all transform duration-150 no-wrap  text-white hover:bg-gradient-to-b from-blue-700 to-blue-500">
                   {nav.txt}
-                </NavLink>
+                </Link>
               );
             })}
           </div>
