@@ -1,7 +1,9 @@
 import React from "react";
 import { navList } from "./Navbar";
+import logo from '../assets/images/logo.png';
 
 export default function Footer() {
+  
   return (
     <footer className="flex flex-col border-t-2 border-t-gray-300 my-20 px-4 md:p-0 gap-8">
       <div className="grid sm:grid-flow-col grid-flow-row py-4">
@@ -114,7 +116,7 @@ export default function Footer() {
         <img
           alt="Philippine Destination"
           className="w-80 m-auto"
-          src="./src/assets/images/smll_logo.jpg"
+          src={logo}
         />
       </p>
     </footer>

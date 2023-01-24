@@ -1,11 +1,11 @@
 import React from "react";
-
+import logo from "../assets/images/logo.png"
 export default function Header() {
   return (
     <div className="flex md:flex-row flex-col items-center w-full m-auto py-4 bg-green-700 md:bg-transparent">
       <div id="logo" className="w-80">
         <img
-          src="./src/assets/images/logo.png"
+          src={logo}
           alt="Philippine Destination"
           className="w-full"
         />

@@ -64,34 +64,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
-// export default function Navbar() {
-//   return (
-//     <nav
-//       id="menu"
-//       className="z-40 sticky top-0 sm:flex flex flex-row font-medium bg-green-600 px-10 sm:px-4 py-2 place-content-center"
-//     >
-//       <div>
-//         <button>Open Menu</button>
-//       </div>
-//       <div className={`m-auto flex flex-wrap border flex-col md:flex-row`} id="navbar-default">
-//         {navList.map((nav) => {
-//           return (
-//             <NavLink
-//               to={nav.href}
-//               key={nav.txt}
-//               href={nav.href}
-//               activeClassName={
-//                 "hover:bg-gradient-to-b from-red-700 to-red-500 text-red-500"
-//               }
-//               className="border rounded-md over:bg-blue-700 active:ring-4 active:text-gray-400 px-2 xs:px-4 py-2 transition-all no-wrap  text-white
-//               hover:bg-gradient-to-b from-blue-700 to-blue-500"
-//             >
-//               {nav.txt}
-//             </NavLink>
-//           );
-//         })}
-//       </div>
-//     </nav>
-//   );
-// }

@@ -12,3 +12,12 @@ body{
 .active, .selected{
   color: rgb(252 233 106 / var(--tw-text-opacity));
 }
+
+.title{
+  font-family: "DautherOfFortune";
+}
+
+@font-face {
+  font-family: 'DautherOfFortune';
+  src:  url('./styles/fonts/daughter_of_fortune/Daughter_of_Fortune.ttf') format('ttf');
+}

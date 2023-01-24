@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
-function getImgAssets (url) {
-  const path = `/src/assets/images/${name}`;
-  const modules = import.meta.glob("/src/assets/*", { eager: true });
-  const mod = modules[path] ;
-  return mod.default;
-}
+// function getImgAssets (url) {
+//   const path = url //`/src/assets/images/${name}`;
+//   const modules = import.meta.glob(`.${url}`, { eager: true });
+//   // const modules = import.meta.glob("/src/assets/*", { eager: true });
+//   const mod = modules[path] ;
+//   return mod.default;
+// }
+
+// const getImgUrl = (imageNameWithExtension)=> new URL(`.${imageNameWithExtension}`, import.meta.url).href;
 
 export default function Jumbotron() {
   const [rndImg, setRndImg] = useState(null);
@@ -16,14 +19,15 @@ export default function Jumbotron() {
       .then((response) => response.json())
       .then((data) => {
         // const imgURL = import.meta.glob(`.${data[Math.floor(Math.random() * data.length)].img}`, {eager: true})
-        
+        const rndItem = data[Math.floor(Math.random() * data.length)]
+        console.log(rndItem.img)
+        // console.log(getImgUrl(rndItem.img))
         setRndImg(`.${data[Math.floor(Math.random() * data.length)].img}`);
       });
   };
 
   useEffect(() => {
-    fetchDestination();
-    
+    fetchDestination();    
   }, []);
 
   return (
@@ -41,7 +45,7 @@ export default function Jumbotron() {
         place-items-center bottom-0 flex 
         flex-col px-4 md:px-40"
       >
-        <h1 className="tagline  text-center text-gra-600 text-green-900 text-2xl md:text-4xl font-semibold">
+        <h1 className="tagline title  text-center text-gra-600 text-green-900 text-2xl md:text-4xl font-semibold">
           Make your Hassle-Free travel plans now!
         </h1>
 
