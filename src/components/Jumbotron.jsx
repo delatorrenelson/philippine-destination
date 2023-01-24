@@ -1,42 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-
-// function getImgAssets (url) {
-//   const path = url //`/src/assets/images/${name}`;
-//   const modules = import.meta.glob(`.${url}`, { eager: true });
-//   // const modules = import.meta.glob("/src/assets/*", { eager: true });
-//   const mod = modules[path] ;
-//   return mod.default;
-// }
-
-// const getImgUrl = (imageNameWithExtension)=> new URL(`.${imageNameWithExtension}`, import.meta.url).href;
+import { places } from "../json/destinations";
 
 export default function Jumbotron() {
-  const [rndImg, setRndImg] = useState(null);
-
-  const fetchDestination = () => {
-    fetch("./src/json/destinations.json")
-      .then((response) => response.json())
-      .then((data) => {
-        // const imgURL = import.meta.glob(`.${data[Math.floor(Math.random() * data.length)].img}`, {eager: true})
-        const rndItem = data[Math.floor(Math.random() * data.length)]
-        console.log(rndItem.img)
-        // console.log(getImgUrl(rndItem.img))
-        setRndImg(`.${data[Math.floor(Math.random() * data.length)].img}`);
-      });
-  };
+  const [rndImg, setRndImg] = useState(
+    places[Math.floor(Math.random() * places.length)]
+  );
 
   useEffect(() => {
-    fetchDestination();    
+    setRndImg(places[Math.floor(Math.random() * places.length)]);
   }, []);
 
   return (
-    <div className="relative h-full">
-      <img src={rndImg} alt="" className="w-full z-10" />
+    <div className="relative">
+      <img src={rndImg.img} alt="" className="w-full h-full z-10 object-fill" />
 
       <div
         className="cta md:yt-10 py-8
-        bg-gradient-to-b from-slate-300 to-opacity-10
+        bg-gradient-to-b from-green-700 to-opacity-10
         w-full 
         static      
         sm:absolute     
@@ -45,9 +26,12 @@ export default function Jumbotron() {
         place-items-center bottom-0 flex 
         flex-col px-4 md:px-40"
       >
-        <h1 className="tagline title  text-center text-gra-600 text-green-900 text-2xl md:text-4xl font-semibold">
-          Make your Hassle-Free travel plans now!
+        <h1 className="title text-center  text-green-90 text-white text-2xl md:text-6xl font-semibold">
+          {rndImg.destination}
         </h1>
+        <h2 className="title text-center text-green-90 text-white text-2xl md:text-4xl">
+          Make your Hassle-Free travel plans now!
+        </h2>
 
         <NavLink to="/booking">
           <button

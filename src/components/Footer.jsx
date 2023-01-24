@@ -65,7 +65,7 @@ export default function Footer() {
         <ul className="footer_item social text-blue-400 leading-loose">
           <h4 className="font-bold">Follow us on:</h4>
           <div className="flex  items-center">
-            <a href="#" id="fb" className="w-10 h-10 grid">
+            <a href="#" target="_blank" id="fb" className="w-10 h-10 grid">
               <svg
                 className="fill-gray-500 hover:fill-blue-600 w-full h-full"
                 viewBox="126.445 2.281 589 589"
