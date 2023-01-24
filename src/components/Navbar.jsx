@@ -48,14 +48,14 @@ export default function Navbar() {
           <div className="flex items-center place-content-center flex-col mx-auto flex-wrap md:flex-row  md:mt-0 md:text-base md:font-medium  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {navList.map((nav) => {
               return (
-                <Link                  
+                <NavLink                  
                   to={nav.href}
                   key={nav.txt}
                   href={nav.href}                  
                   className=
                     "rounded-md align-middle over:bg-blue-700 active:ring-4 active:text-gray-400 md:px-6 px-4 py-2 transition-all transform duration-150 no-wrap  text-white hover:bg-gradient-to-b from-blue-700 to-blue-500">
                   {nav.txt}
-                </Link>
+                </NavLink>
               );
             })}
           </div>
