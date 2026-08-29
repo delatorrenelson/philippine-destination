@@ -61,7 +61,6 @@ philippine-destination/
 │   │   ├── TravelInfo.jsx  # Travel guides & essential tips
 │   │   ├── Hotels.jsx      # Accommodations & staycations
 │   │   ├── Booking.jsx     # Booking services & guides
-│   │   ├── Services.jsx    # Travel services
 │   │   ├── Contact.jsx     # Contact & community support
 │   │   └── MyAccount.jsx   # User profile & story contributions
 │   ├── styles/             # Custom CSS & Tailwind styles

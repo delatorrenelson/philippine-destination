@@ -17,7 +17,6 @@ import TravelInfo from "./pages/TravelInfo";
 import Booking from "./pages/Booking";
 import Hotels from "./pages/Hotels";
 import MyAccount from "./pages/MyAccount";
-import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 
 // COMPONENTS
@@ -41,7 +40,6 @@ function App() {
             <Route path="/booking/:destination" element={<Booking />} />
             <Route path="/hotels" element={<Hotels />} />
             <Route path="/my-account" element={<MyAccount />} />
-            <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

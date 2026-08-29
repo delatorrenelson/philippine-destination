@@ -8,7 +8,6 @@ export const navList = [
   { txt: "Travel Info", href: "/travel-info" },
   { txt: "Hotels", href: "/hotels" },
   { txt: "My Account", href: "/my-account" },
-  { txt: "Services", href: "/services" },
   { txt: "Contact", href: "/contact" },
 ];
 
