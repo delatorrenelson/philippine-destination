@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { MapPin, Clock, ArrowRight, Bookmark, Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80";
+
 export default function PostFeed({ posts, itemsPerPage = 6 }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [savedPosts, setSavedPosts] = useState({});
@@ -55,6 +57,7 @@ export default function PostFeed({ posts, itemsPerPage = 6 }) {
                 <img
                   src={post.img}
                   alt={post.destination}
+                  onError={(e) => { e.target.src = FALLBACK_IMAGE; }}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <span className="absolute top-3 left-3 bg-emerald-600/90 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
@@ -101,6 +104,7 @@ export default function PostFeed({ posts, itemsPerPage = 6 }) {
                     <img
                       src={post.author?.avatar}
                       alt={post.author?.name}
+                      onError={(e) => { e.target.src = "https://i.pravatar.cc/150?img=33"; }}
                       className="w-7 h-7 rounded-full object-cover ring-1 ring-emerald-500"
                     />
                     <span className="text-xs font-semibold text-gray-700 dark:text-gray-300">

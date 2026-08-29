@@ -1,10 +1,6 @@
-import React, { useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
-import { MapPin, Clock, ArrowLeft, Share2, Heart, Tag, Calendar, User } from "lucide-react";
-import { places, categories } from "../json/destinations";
-import Sidebar from "../components/Sidebar";
-import CommentSection from "../components/CommentSection";
-import { Button } from "../components/ui/button";
+import MarkdownContent from "../components/MarkdownContent";
+
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80";
 
 export default function ArticleDetail() {
   const { id } = useParams();
@@ -28,7 +24,7 @@ export default function ArticleDetail() {
   return (
     <div className="py-8 max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
       {/* Back Button */}
-      <Link to="/" className="inline-flex items-center gap-2 text-xs font-bold text-emerald-700 hover:text-emerald-800 transition-colors">
+      <Link to="/" className="inline-flex items-center gap-2 text-xs font-bold text-emerald-700 dark:text-emerald-400 hover:text-emerald-800 transition-colors">
         <ArrowLeft className="w-4 h-4" />
         <span>Back to All Destination Stories</span>
       </Link>
@@ -58,6 +54,7 @@ export default function ArticleDetail() {
                 <img
                   src={post.author?.avatar}
                   alt={post.author?.name}
+                  onError={(e) => { e.target.src = "https://i.pravatar.cc/150?img=33"; }}
                   className="w-10 h-10 rounded-full object-cover ring-2 ring-emerald-500"
                 />
                 <div>
@@ -66,7 +63,7 @@ export default function ArticleDetail() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 text-gray-500">
+              <div className="flex items-center gap-4 text-gray-500 dark:text-gray-400">
                 <span className="flex items-center gap-1">
                   <Calendar className="w-3.5 h-3.5 text-emerald-600" />
                   {post.publishedAt}
@@ -79,10 +76,11 @@ export default function ArticleDetail() {
             </div>
 
             {/* Main Featured Image */}
-            <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-lg bg-gray-100">
+            <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-lg bg-gray-100 dark:bg-gray-800">
               <img
                 src={post.img}
                 alt={post.destination}
+                onError={(e) => { e.target.src = FALLBACK_IMAGE; }}
                 className="w-full h-full object-cover"
               />
               <div className="absolute bottom-3 left-3 bg-black/60 backdrop-blur-md text-white text-xs px-3 py-1.5 rounded-lg flex items-center gap-1.5">
@@ -91,15 +89,13 @@ export default function ArticleDetail() {
               </div>
             </div>
 
-            {/* Article Content */}
-            <div className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base space-y-4 pt-4">
-              <p className="font-medium text-gray-900 dark:text-white text-base sm:text-lg leading-relaxed border-l-4 border-emerald-500 pl-4 py-1 bg-emerald-50/50 dark:bg-emerald-950/20 rounded-r-lg">
+            {/* Article Body Content */}
+            <div className="space-y-4 pt-4">
+              <p className="font-medium text-gray-900 dark:text-white text-base sm:text-lg leading-relaxed border-l-4 border-emerald-500 pl-4 py-2 bg-emerald-50/50 dark:bg-emerald-950/20 rounded-r-lg">
                 {post.description}
               </p>
 
-              <div className="whitespace-pre-line space-y-3 font-normal">
-                {post.fullContent || post.description}
-              </div>
+              <MarkdownContent content={post.fullContent || post.description} />
             </div>
 
             {/* Tags */}
