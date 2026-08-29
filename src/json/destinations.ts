@@ -2,10 +2,16 @@ import destinationsData from "./destinations.json";
 import usersData from "./users.json";
 import articlesData from "./articles.json";
 import commentsData from "./comments.json";
+import { Destination, User, Article, Comment, Place } from "../types";
 
-// Map articles to the places structure expected by legacy and current UI components
-const places = articlesData.map((art) => {
-  const artComments = commentsData.filter((c) => c.articleId === art.id);
+const destinations: Destination[] = destinationsData as Destination[];
+const users: User[] = usersData as User[];
+const articles: Article[] = articlesData as Article[];
+const comments: Comment[] = commentsData as Comment[];
+
+// Map articles to the places structure expected by UI components
+const places: Place[] = articles.map((art) => {
+  const artComments = comments.filter((c) => c.articleId === art.id);
   return {
     id: art.slug,
     articleId: art.id,
@@ -27,7 +33,7 @@ const places = articlesData.map((art) => {
   };
 });
 
-const categories = [
+const categories: string[] = [
   "All Stories",
   "Beaches & Islands",
   "Surfing & Adventure",
@@ -39,10 +45,10 @@ const categories = [
 ];
 
 export {
-  destinationsData as destinations,
-  usersData as users,
-  articlesData as articles,
-  commentsData as comments,
+  destinations,
+  users,
+  articles,
+  comments,
   places,
   categories
 };

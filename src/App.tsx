@@ -23,7 +23,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  const [globalSearch, setGlobalSearch] = useState("");
+  const [globalSearch, setGlobalSearch] = useState<string>("");
 
   return (
     <Router>
@@ -49,4 +49,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;

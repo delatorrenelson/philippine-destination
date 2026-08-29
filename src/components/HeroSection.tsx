@@ -2,10 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Clock, Star, MapPin } from "lucide-react";
 import { Button } from "./ui/button";
+import { Place } from "../types";
 
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80";
 
-export default function HeroSection({ post }) {
+interface HeroSectionProps {
+  post: Place | null;
+}
+
+export default function HeroSection({ post }: HeroSectionProps) {
   if (!post) return null;
 
   return (
@@ -15,7 +20,9 @@ export default function HeroSection({ post }) {
         <img
           src={post.img}
           alt={post.destination}
-          onError={(e) => { e.target.src = FALLBACK_IMAGE; }}
+          onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+            (e.target as HTMLImageElement).src = FALLBACK_IMAGE;
+          }}
           className="w-full h-full object-cover object-center opacity-85 group-hover:scale-105 transition-transform duration-700 ease-out"
         />
         {/* Multi-layered Gradients */}
@@ -55,7 +62,9 @@ export default function HeroSection({ post }) {
             <img
               src={post.author.avatar}
               alt={post.author.name}
-              onError={(e) => { e.target.src = "https://i.pravatar.cc/150?img=33"; }}
+              onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+                (e.target as HTMLImageElement).src = "https://i.pravatar.cc/150?img=33";
+              }}
               className="w-10 h-10 rounded-full object-cover ring-2 ring-emerald-400 shadow"
             />
             <div>

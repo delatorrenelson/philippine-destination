@@ -1,9 +1,16 @@
+import React, { useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
+import { MapPin, Clock, ArrowLeft, Tag, Calendar } from "lucide-react";
+import { places, categories } from "../json/destinations";
+import Sidebar from "../components/Sidebar";
+import CommentSection from "../components/CommentSection";
+import { Button } from "../components/ui/button";
 import MarkdownContent from "../components/MarkdownContent";
 
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80";
 
 export default function ArticleDetail() {
-  const { id } = useParams();
+  const { id } = useParams<{ id: string }>();
   const post = places.find((p) => p.id === id) || places[0];
 
   useEffect(() => {
@@ -54,7 +61,9 @@ export default function ArticleDetail() {
                 <img
                   src={post.author?.avatar}
                   alt={post.author?.name}
-                  onError={(e) => { e.target.src = "https://i.pravatar.cc/150?img=33"; }}
+                  onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+                    (e.target as HTMLImageElement).src = "https://i.pravatar.cc/150?img=33";
+                  }}
                   className="w-10 h-10 rounded-full object-cover ring-2 ring-emerald-500"
                 />
                 <div>
@@ -80,7 +89,9 @@ export default function ArticleDetail() {
               <img
                 src={post.img}
                 alt={post.destination}
-                onError={(e) => { e.target.src = FALLBACK_IMAGE; }}
+                onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+                  (e.target as HTMLImageElement).src = FALLBACK_IMAGE;
+                }}
                 className="w-full h-full object-cover"
               />
               <div className="absolute bottom-3 left-3 bg-black/60 backdrop-blur-md text-white text-xs px-3 py-1.5 rounded-lg flex items-center gap-1.5">

@@ -5,11 +5,15 @@ import AuthModal from "./AuthModal";
 import ThemeToggle from "./ThemeToggle";
 import { Button } from "./ui/button";
 
-export default function Header({ onSearch }) {
-  const [isAuthOpen, setIsAuthOpen] = useState(false);
-  const [query, setQuery] = useState("");
+interface HeaderProps {
+  onSearch?: (query: string) => void;
+}
 
-  const handleSearchSubmit = (e) => {
+export default function Header({ onSearch }: HeaderProps) {
+  const [isAuthOpen, setIsAuthOpen] = useState<boolean>(false);
+  const [query, setQuery] = useState<string>("");
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (onSearch) onSearch(query);
   };

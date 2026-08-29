@@ -1,13 +1,15 @@
 import React from "react";
 
-export default function MarkdownContent({ content }) {
+interface MarkdownContentProps {
+  content: string;
+}
+
+export default function MarkdownContent({ content }: MarkdownContentProps) {
   if (!content) return null;
 
-  // Split lines
   const lines = content.split("\n");
 
-  const parseInline = (text) => {
-    // Replace **bold** markers
+  const parseInline = (text: string) => {
     const parts = text.split(/(\*\*.*?\*\*)/g);
     return parts.map((part, idx) => {
       if (part.startsWith("**") && part.endsWith("**")) {
@@ -21,9 +23,9 @@ export default function MarkdownContent({ content }) {
     });
   };
 
-  const renderedElements = [];
-  let currentList = [];
-  let listType = null;
+  const renderedElements: React.ReactNode[] = [];
+  let currentList: string[] = [];
+  let listType: "ul" | "ol" | null = null;
 
   const flushList = () => {
     if (currentList.length > 0) {
