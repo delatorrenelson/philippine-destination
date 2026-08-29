@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ import {
 // PAGES
 import Home from "./pages/Home";
 import Destinations from "./pages/Destinations";
+import ArticleDetail from "./pages/ArticleDetail";
 import TravelInfo from "./pages/TravelInfo";
 import Booking from "./pages/Booking";
 import Hotels from "./pages/Hotels";
@@ -22,22 +24,28 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const [globalSearch, setGlobalSearch] = useState("");
+
   return (
     <Router>
-      <div className="App md:w-[90%] mx-auto w-full max-w-screen-2xl">
-        <Header />
+      <div className="App min-h-screen bg-gray-50/50 dark:bg-gray-950 text-gray-900 dark:text-white flex flex-col font-sans">
+        <Header onSearch={setGlobalSearch} />
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/destinations" element={<Destinations />} />
-          <Route path="/travel-info" element={<TravelInfo />} />
-          <Route path="/booking" element={<Navigate to="/destinations" replace />} />
-          <Route path="/booking/:destination" element={<Booking />} />
-          <Route path="/hotels" element={<Hotels />} />
-          <Route path="/my-account" element={<MyAccount />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <main className="flex-1">
+          <Routes>
+            <Route path="/" element={<Home searchQuery={globalSearch} onSearchChange={setGlobalSearch} />} />
+            <Route path="/post/:id" element={<ArticleDetail />} />
+            <Route path="/destinations" element={<Destinations />} />
+            <Route path="/travel-info" element={<TravelInfo />} />
+            <Route path="/booking" element={<Navigate to="/destinations" replace />} />
+            <Route path="/booking/:destination" element={<Booking />} />
+            <Route path="/hotels" element={<Hotels />} />
+            <Route path="/my-account" element={<MyAccount />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </Router>

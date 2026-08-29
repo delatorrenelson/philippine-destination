@@ -1,28 +1,68 @@
-import React from "react";
-import logo from "../assets/images/logo.png"
-export default function Header() {
+import React, { useState } from "react";
+import { Search, User, Compass } from "lucide-react";
+import logo from "../assets/images/logo.png";
+import AuthModal from "./AuthModal";
+import { Button } from "./ui/button";
+
+export default function Header({ onSearch }) {
+  const [isAuthOpen, setIsAuthOpen] = useState(false);
+  const [query, setQuery] = useState("");
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (onSearch) onSearch(query);
+  };
+
   return (
-    <div className="flex md:flex-row flex-col items-center w-full m-auto py-4 bg-green-700 md:bg-transparent">
-      <div id="logo" className="w-80">
-        <img
-          src={logo}
-          alt="Philippine Destination"
-          className="w-full"
-        />
-      </div>
-      <span className="flex-1"></span>
-      <form id="search" className="flex h-10 gap-2">
-        <input
-          type="text"
-          className="text-gray-600 px-4 py-2 border rounded-lg"
-          placeholder="search for destination"
-        />
-        <input
-          type="button"
-          className="bg-blue-700 text-white px-4 py-2 rounded-lg font-medium cursor-pointer hover:ring-2 transition active:bg-blue-500"
-          value="Search"
-        />
-      </form>
-    </div>
+    <>
+      <header className="w-full bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 py-3 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+          {/* Logo & Tagline */}
+          <div className="flex items-center gap-3">
+            <div className="w-48 sm:w-56 transition-transform hover:scale-105">
+              <img
+                src={logo}
+                alt="Philippine Destination"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+            <span className="hidden lg:inline-block h-6 w-px bg-gray-200 dark:bg-gray-700" />
+            <p className="hidden lg:flex items-center gap-1.5 text-xs text-emerald-700 dark:text-emerald-400 font-medium">
+              <Compass className="w-4 h-4 animate-spin-slow" />
+              Curated Island Travel & Errand Log
+            </p>
+          </div>
+
+          {/* Search Bar & Auth Actions */}
+          <div className="flex items-center gap-3 w-full md:w-auto">
+            <form onSubmit={handleSearchSubmit} className="relative flex-1 md:w-64">
+              <input
+                type="text"
+                value={query}
+                onChange={(e) => {
+                  setQuery(e.target.value);
+                  if (onSearch) onSearch(e.target.value);
+                }}
+                placeholder="Search islands, beaches, spots..."
+                className="w-full pl-9 pr-4 py-2 text-xs sm:text-sm bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white dark:focus:bg-gray-900 transition-all"
+              />
+              <Search className="w-4 h-4 text-gray-400 absolute left-3 top-2.5" />
+            </form>
+
+            <Button
+              onClick={() => setIsAuthOpen(true)}
+              variant="default"
+              size="sm"
+              className="rounded-full shadow-sm gap-1.5 text-xs font-semibold px-4"
+            >
+              <User className="w-3.5 h-3.5" />
+              <span>Sign In</span>
+            </Button>
+          </div>
+        </div>
+      </header>
+
+      <AuthModal isOpen={isAuthOpen} onClose={() => setIsAuthOpen(false)} />
+    </>
   );
 }
