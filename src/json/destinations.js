@@ -64,6 +64,43 @@ const places = [
     ]
   },
   {
+    id: "batanes-islands",
+    destination: "Batanes",
+    title: "Rolling Hills & Stone Houses: A Journey to Batanes, the Edge of the Philippines",
+    category: "Culture & Heritage",
+    excerpt: "Feel the wild ocean winds at Sabtang Lighthouse, marvel at traditional Ivatan stone architecture, and walk through rolling green cliffs.",
+    description: "Batanes is the northernmost province of the Philippines, renowned for its dramatic wind-swept lighthouses, stone houses built to withstand typhoons, and breathtaking coastal cliffs.",
+    fullContent: `Batanes feels like another realm. Situated between northern Luzon and Taiwan, the archipelago offers cool winds, honest communities, and panoramic views of crashing waves against emerald sea cliffs.
+
+### Unmissable Spots in Batanes:
+- **Sabtang Island & Chavayan Village:** Historic Ivatan stone houses with thatched cogon roofs that have survived centuries of Pacific storms.
+- **Marlboro Hills (Racuh a Payaman):** Free-roaming horses and cows grazing on emerald hills with views of Mt. Arayat and Mount Iraya.
+- **Honesty Coffee Shop:** An un-manned coffee shop where travelers pick their snacks, brew their coffee, and drop exact change in a wooden box!`,
+    img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    location: "Batanes Archipelago, Philippines",
+    rating: 5,
+    featured: true,
+    publishedAt: "2026-08-28",
+    readTime: "7 min read",
+    author: {
+      name: "Hannah Vance",
+      role: "Landscape Photographer",
+      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      bio: "UK-born travel photographer documenting remote islands and traditional cultures."
+    },
+    tags: ["Batanes", "Sabtang", "MarlboroHills", "Ivatan", "Photography"],
+    comments: [
+      {
+        id: 401,
+        author: "Liam O'Connor",
+        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+        date: "2026-08-28",
+        text: "Batanes has been on my bucket list for years! The Honesty Store concept is so heartwarming.",
+        likes: 19
+      }
+    ]
+  },
+  {
     id: "boracay-island",
     destination: "Boracay",
     title: "White Beach Bliss: Sunset Cruises, Food Crawls, & Nightlife in Boracay",
@@ -97,6 +134,43 @@ const places = [
         date: "2026-08-19",
         text: "The sunsets in Boracay are truly unmatched! Loved the food recommendations.",
         likes: 15
+      }
+    ]
+  },
+  {
+    id: "moalboal-cebu",
+    destination: "Moalboal, Cebu",
+    title: "Swimming with Millions of Sardines & Canyoneering at Kawasan Falls",
+    category: "Diving & Marine Life",
+    excerpt: "Witness the magical Moalboal Sardine Run right off Panagsama Beach, then jump off turquoise waterfalls in Badian.",
+    description: "Moalboal in southern Cebu is famous for its natural sardine run spectacle where millions of fish swim in mesmerizing synchronized formations just meters from shore.",
+    fullContent: `If you love marine life and adrenaline, Moalboal is your dream playground. Without even taking a boat, you can put on your snorkel mask and swim right into a swirling wall of millions of sardines!
+
+### Best Activities:
+1. **Panagsama Sardine Run:** Snorkel alongside massive silver bait balls and resident sea turtles feeding on sea grass.
+2. **Kawasan Falls Canyoneering:** Jump from 10-meter cliff ledges into electric-blue natural freshwater pools!
+3. **Pescador Island:** World-class scuba diving spot filled with soft corals and frogfish.`,
+    img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    location: "Moalboal, Cebu, Philippines",
+    rating: 5,
+    featured: false,
+    publishedAt: "2026-08-27",
+    readTime: "6 min read",
+    author: {
+      name: "Kenji Sato",
+      role: "Marine Biologist & Scuba Instructor",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      bio: "Ocean conservationist exploring coral reef ecosystems across Southeast Asia."
+    },
+    tags: ["Cebu", "Moalboal", "SardineRun", "Snorkeling", "Canyoneering"],
+    comments: [
+      {
+        id: 501,
+        author: "Chloe Dubois",
+        avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+        date: "2026-08-28",
+        text: "The Kawasan cliff jumps gave me such an adrenaline rush! Moalboal is 10/10.",
+        likes: 14
       }
     ]
   },
@@ -138,6 +212,52 @@ const places = [
     ]
   },
   {
+    id: "bohol-chocolate-hills",
+    destination: "Bohol",
+    title: "1,200 Chocolate Hills, Tiny Tarsiers, & Loboc River Paddleboarding",
+    category: "Nature & Wildlife",
+    excerpt: "Discover Bohol's iconic geological hills that turn brown in dry season, meet endangered tarsiers, and cruise down green jungle rivers.",
+    description: "Bohol is a lush island province famous for the Chocolate Hills—over 1,260 symmetrical conical hills—alongside sanctuary protected Philippine Tarsiers.",
+    fullContent: `Bohol combines eco-adventure with relaxed island charm. Rent a stand-up paddleboard on the emerald Loboc River or take an ATV tour around the base of the Chocolate Hills.`,
+    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    location: "Bohol, Visayas, Philippines",
+    rating: 5,
+    featured: false,
+    publishedAt: "2026-08-16",
+    readTime: "6 min read",
+    author: {
+      name: "Mateo Santos",
+      role: "Eco-Tourism Specialist",
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      bio: "Cebuano adventurer advocating for sustainable wildlife protection."
+    },
+    tags: ["Bohol", "ChocolateHills", "Tarsiers", "Nature", "LobocRiver"],
+    comments: []
+  },
+  {
+    id: "mayon-volcano-albay",
+    destination: "Legazpi, Albay",
+    title: "ATV Lava Trail Adventures under the Perfect Cone of Mayon Volcano",
+    category: "Surfing & Adventure",
+    excerpt: "Ride quad bikes across black lava rocks toward the base of Mount Mayon, the world's most perfectly symmetrical stratovolcano.",
+    description: "Mount Mayon in Albay is famous for its flawless conical shape. Adventurers ride ATVs through rivers, rice fields, and black volcanic trails up to the 2006 lava wall.",
+    fullContent: `Seeing Mount Mayon's majestic silhouette rising above Bicol's green landscape is awe-inspiring. For thrill-seekers, the Black Lava Trail ATV tour delivers heart-pumping excitement through rugged terrain.`,
+    img: "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    location: "Legazpi City, Bicol, Philippines",
+    rating: 5,
+    featured: false,
+    publishedAt: "2026-08-21",
+    readTime: "5 min read",
+    author: {
+      name: "Chloe Dubois",
+      role: "Mountain Backpacker",
+      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      bio: "French adventurer hiking volcanic peaks and alpine trails around the world."
+    },
+    tags: ["Mayon", "Volcano", "ATV", "Albay", "Bicol", "Adventure"],
+    comments: []
+  },
+  {
     id: "banaue-rice-terraces",
     destination: "Banaue Rice Terraces",
     title: "Walking Among Clouds: Hiking the 2,000-Year-Old Banaue Rice Terraces",
@@ -163,6 +283,29 @@ const places = [
       bio: "Documenting indigenous arts, ancestral crafts, and mountain cultures across Luzon."
     },
     tags: ["Banaue", "UNESCO", "Hiking", "Culture", "Ifugao"],
+    comments: []
+  },
+  {
+    id: "siquijor-island",
+    destination: "Siquijor",
+    title: "Cliff Jumps & Old Healing Traditions: Uncovering Siquijor's Magic",
+    category: "Beaches & Islands",
+    excerpt: "Swing from rope swings into Cambugahay Falls' turquoise pools and snorkel in fish-rich marine sanctuaries.",
+    description: "Siquijor is an island province in the Central Visayas famous for mystic folklore, pristine waterfalls, white sand beaches, and historic century-old balete trees.",
+    fullContent: `Known locally as the "Island of Fire", Siquijor enchants every traveler who steps ashore. From Tarzan rope swings at Cambugahay Falls to snorkeling with giant clams at Tubod Marine Sanctuary.`,
+    img: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    location: "Siquijor Island, Visayas, Philippines",
+    rating: 5,
+    featured: false,
+    publishedAt: "2026-08-14",
+    readTime: "6 min read",
+    author: {
+      name: "David Miller",
+      role: "Solo Travel Vlogger",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      bio: "Backpacking through Southeast Asia sharing low-budget island tips."
+    },
+    tags: ["Siquijor", "Waterfalls", "Cambugahay", "IslandLife", "Backpacking"],
     comments: []
   },
   {
