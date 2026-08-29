@@ -28,15 +28,15 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-          <Route exact path={`/`} element={<Home />} />
-          <Route exact path={`/destinations`} element={<Destinations />} />
-          <Route exact path={`/travel-info`} element={<TravelInfo />} />
-          <Route exact path={`/booking`} element={<Navigate to="/destinations" replace />} />
-          <Route exact path={`/booking/:destination`} element={<Booking />} />
-          <Route exact path={`/hotels`} element={<Hotels />} />
-          <Route exact path={`/my-account`} element={<MyAccount />} />
-          <Route exact path={`/services`} element={<Services />} />
-          <Route exact path={`/contact`} element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/destinations" element={<Destinations />} />
+          <Route path="/travel-info" element={<TravelInfo />} />
+          <Route path="/booking" element={<Navigate to="/destinations" replace />} />
+          <Route path="/booking/:destination" element={<Booking />} />
+          <Route path="/hotels" element={<Hotels />} />
+          <Route path="/my-account" element={<MyAccount />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

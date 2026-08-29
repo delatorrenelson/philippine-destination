@@ -1,59 +1,54 @@
-import React, { useEffect } from "react";
-import { Link,NavLink } from "react-router-dom";
-import "flowbite";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 export const navList = [
   { txt: "Home", href: "/" },
   { txt: "Destinations", href: "/destinations" },
   { txt: "Travel Info", href: "/travel-info" },
-  // { txt: "Booking", href: "/booking" },
   { txt: "Hotels", href: "/hotels" },
   { txt: "My Account", href: "/my-account" },
   { txt: "Services", href: "/services" },
   { txt: "Contact", href: "/contact" },
 ];
 
-export default function Navbar() {  
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav className="bg-green-700 px-2 sm:px-4 py-2.5 dark:bg-gray-900 relative w-full z-20 top-0 left-0 ">
+    <nav className="bg-emerald-700 px-2 sm:px-4 py-2.5 dark:bg-gray-900 relative w-full z-20 top-0 left-0 shadow-md">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <div className="flex md:order-2">
           <button
-            data-collapse-toggle="navbar-sticky"
+            onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 text-sm text-white bg-transparent rounded-lg md:hidden hover:font-medium"
-            aria-controls="navbar-sticky"
-            aria-expanded="false"
+            className="inline-flex items-center p-2 text-sm text-white bg-transparent rounded-lg md:hidden hover:bg-emerald-800 focus:outline-none transition-colors"
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
           >
-            <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-6 h-6 fill-white"
-              aria-hidden="true"
-              fillRule="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
+            {isOpen ? <X className="w-6 h-6 text-white" /> : <Menu className="w-6 h-6 text-white" />}
           </button>
         </div>
         <div
-          className="place-content-center hidden w-full md:flex md:order-1 transition-all"
-          id="navbar-sticky"
+          className={`${
+            isOpen ? "block" : "hidden"
+          } place-content-center w-full md:flex md:w-auto md:order-1 transition-all duration-300`}
         >
-          <div className="flex items-center place-content-center flex-col mx-auto flex-wrap md:flex-row  md:mt-0 md:text-base md:font-medium  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <div className="flex flex-col md:flex-row items-center place-content-center mx-auto gap-1 md:gap-2 py-2 md:py-0 md:text-base md:font-medium">
             {navList.map((nav) => {
               return (
-                <NavLink                  
+                <NavLink
                   to={nav.href}
                   key={nav.txt}
-                  href={nav.href}                  
-                  className=
-                    "rounded-md align-middle over:bg-blue-700 active:ring-4 active:text-gray-400 md:px-6 px-4 py-2 transition-all transform duration-150 no-wrap  text-white hover:bg-gradient-to-b from-blue-700 to-blue-500">
+                  onClick={() => setIsOpen(false)}
+                  className={({ isActive }) =>
+                    `rounded-md align-middle md:px-5 px-4 py-2 transition-all duration-150 text-white w-full md:w-auto text-center ${
+                      isActive
+                        ? "bg-emerald-800 font-semibold shadow-inner"
+                        : "hover:bg-emerald-600/80 hover:shadow"
+                    }`
+                  }
+                >
                   {nav.txt}
                 </NavLink>
               );
@@ -63,4 +58,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-}
+}
