@@ -3,7 +3,7 @@
 > **Discover 7,641 Islands of Wonder, Authentic Stories, and Unforgettable Adventures! 🇵🇭✨**
 
 [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-6.1.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8.2.2-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38BDF8?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-Open_Source-black?logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -39,7 +39,7 @@ Whether you are a **local adventurer (*Kababayans*)** exploring secret weekend s
 
 ## 🛠️ Tech Stack
 
-- **Frontend Core:** [React 19](https://reactjs.org/) + [Vite 6](https://vitejs.dev/)
+- **Frontend Core:** [React 19](https://reactjs.org/) + [Vite 8](https://vitejs.dev/)
 - **Routing:** [React Router v7](https://reactrouter.com/)
 - **Styling & UI:** [Tailwind CSS](https://tailwindcss.com/), [Shadcn UI](https://ui.shadcn.com/) (Open Source), [Lucide React](https://lucide.dev/)
 - **Post-Processing:** PostCSS, Autoprefixer
