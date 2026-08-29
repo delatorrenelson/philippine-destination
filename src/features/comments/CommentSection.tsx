@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MessageSquare, ThumbsUp, Send } from "lucide-react";
-import { Button } from "./ui/button";
-import { Comment } from "../types";
+import { Button } from "../../components/ui/button";
+import { Comment } from "../../types";
 
 interface CommentSectionProps {
   initialComments: Comment[];

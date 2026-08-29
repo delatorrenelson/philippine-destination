@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { MapPin, Clock, ArrowLeft, Tag, Calendar } from "lucide-react";
 import { places, categories } from "../json/destinations";
-import Sidebar from "../components/Sidebar";
-import CommentSection from "../components/CommentSection";
+import { Sidebar } from "../features/sidebar";
+import { CommentSection } from "../features/comments";
+import { MarkdownContent } from "../features/feed";
 import { Button } from "../components/ui/button";
-import MarkdownContent from "../components/MarkdownContent";
 
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80";
 

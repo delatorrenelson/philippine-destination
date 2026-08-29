@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Search, Tag, Compass, Sparkles, Instagram, Facebook, Youtube } from "lucide-react";
-import { Place } from "../types";
+import { Place } from "../../types";
 
 interface SidebarProps {
   searchQuery: string;

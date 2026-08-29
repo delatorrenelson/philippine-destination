@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Clock, Star, MapPin } from "lucide-react";
-import { Button } from "./ui/button";
-import { Place } from "../types";
+import { Button } from "../../components/ui/button";
+import { Place } from "../../types";
 
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80";
 

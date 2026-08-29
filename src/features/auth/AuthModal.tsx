@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { X, Mail, Lock, User as UserIcon } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../../components/ui/button";
 
 interface AuthModalProps {
   isOpen: boolean;

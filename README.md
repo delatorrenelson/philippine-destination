@@ -53,20 +53,20 @@ philippine-destination/
 ├── public/                 # Static assets & icons
 ├── src/
 │   ├── assets/             # Images, graphics, & media assets
-│   ├── components/         # Reusable UI components (Navbar, Header, Footer, Cards)
-│   ├── json/               # Mock data for destinations & travel reviews
-│   ├── pages/              # Main application pages
-│   │   ├── Home.jsx        # Landing page & featured spots
-│   │   ├── Destinations.jsx# Full destination explorer
-│   │   ├── TravelInfo.jsx  # Travel guides & essential tips
-│   │   ├── Hotels.jsx      # Accommodations & staycations
-│   │   ├── Booking.jsx     # Booking services & guides
-│   │   ├── Contact.jsx     # Contact & community support
-│   │   └── MyAccount.jsx   # User profile & story contributions
-│   ├── styles/             # Custom CSS & Tailwind styles
-│   ├── App.jsx             # Main router & app container
-│   └── main.jsx            # React application entry point
+│   ├── components/         # Shared UI components (Navbar, Header, Footer, Button)
+│   ├── features/           # Feature-based modular components
+│   │   ├── auth/           # Authentication modal & forms
+│   │   ├── comments/       # Comment section & reader discussion threads
+│   │   ├── feed/           # Hero section, post cards feed, markdown reader
+│   │   ├── sidebar/        # Search widget, category list, tag cloud
+│   │   └── theme/          # Light/Dark mode toggle
+│   ├── json/               # Mock datasets (destinations, users, articles, comments)
+│   ├── pages/              # Main application page views (.tsx)
+│   ├── types/              # TypeScript interface definitions
+│   ├── App.tsx             # Main router & app container
+│   └── main.tsx            # React application entry point
 ├── package.json
+├── tsconfig.json
 ├── tailwind.config.cjs
 └── vite.config.js
 ```

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Search, User, Compass } from "lucide-react";
 import logo from "../assets/images/logo.png";
-import AuthModal from "./AuthModal";
-import ThemeToggle from "./ThemeToggle";
+import { AuthModal } from "../features/auth";
+import { ThemeToggle } from "../features/theme";
 import { Button } from "./ui/button";
 
 interface HeaderProps {

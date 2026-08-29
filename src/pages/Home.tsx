@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { places, categories } from "../json/destinations";
-import HeroSection from "../components/HeroSection";
-import PostFeed from "../components/PostFeed";
-import Sidebar from "../components/Sidebar";
+import { HeroSection, PostFeed } from "../features/feed";
+import { Sidebar } from "../features/sidebar";
 
 interface HomeProps {
   searchQuery: string;
