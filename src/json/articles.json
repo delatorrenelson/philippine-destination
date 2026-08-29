@@ -1,0 +1,812 @@
+[
+  {
+    "id": "art-001",
+    "title": "Island Hopping in El Nido: Discovering Secret Lagoons & Hidden Beaches",
+    "slug": "el-nido",
+    "destinationId": "el-nido",
+    "destinationName": "El Nido",
+    "location": "El Nido, Palawan, MIMAROPA, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-002",
+    "author": {
+      "name": "Elena Valdez",
+      "role": "Scuba Diving Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    "excerpt": "An authentic traveler's log exploring El Nido in Palawan. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring El Nido in Palawan\n\nTowering limestone karst cliffs, secret lagoons, and turquoise waters in Bacuit Bay.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Big Lagoon\n- **Adventure Pick:** Secret Lagoon\n- **Photo Point:** 7 Commandos Beach\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-29",
+    "tags": [
+      "Palawan",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-002",
+    "title": "Diving WWII Wrecks & Crystal Lakes: The Ultimate Coron Itinerary",
+    "slug": "coron",
+    "destinationId": "coron",
+    "destinationName": "Coron",
+    "location": "Coron, Palawan, MIMAROPA, Philippines",
+    "category": "Diving & Marine Life",
+    "authorId": "user-003",
+    "author": {
+      "name": "Benjamin Martin",
+      "role": "Eco-Tourism Advocate",
+      "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    "excerpt": "An authentic traveler's log exploring Coron in Palawan. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Coron in Palawan\n\nFamous for WWII Japanese shipwrecks, Kayangan Lake mirror waters, and thermocline lakes.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Kayangan Lake\n- **Adventure Pick:** Barracuda Lake\n- **Photo Point:** Twin Lagoon\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "readTime": "7 min read",
+    "publishedAt": "2026-08-28",
+    "tags": [
+      "Palawan",
+      "Diving&MarineLife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-003",
+    "title": "Into the Underground River: Exploring Palawan's Subterranean Wonder",
+    "slug": "puerto-princesa",
+    "destinationId": "puerto-princesa",
+    "destinationName": "Puerto Princesa Underground River",
+    "location": "Puerto Princesa Underground River, Palawan, MIMAROPA, Philippines",
+    "category": "Nature & Wildlife",
+    "authorId": "user-004",
+    "author": {
+      "name": "Isabella Torralba",
+      "role": "Local Guide & Historian",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    "excerpt": "An authentic traveler's log exploring Puerto Princesa Underground River in Palawan. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Puerto Princesa Underground River in Palawan\n\nNew 7 Wonders of Nature subterranean river flowing directly into the sea through limestone caverns.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Underground River Cave\n- **Adventure Pick:** Sabang Beach\n- **Photo Point:** Honda Bay\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-27",
+    "tags": [
+      "Palawan",
+      "Nature&Wildlife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-004",
+    "title": "White Beach Bliss: Sunset Cruises, Food Crawls, & Nightlife in Boracay",
+    "slug": "boracay",
+    "destinationId": "boracay",
+    "destinationName": "Boracay White Beach",
+    "location": "Boracay White Beach, Aklan, Western Visayas, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-005",
+    "author": {
+      "name": "Benjamin Dubois",
+      "role": "Local Guide & Historian",
+      "avatar": "https://i.pravatar.cc/150?img=6"
+    },
+    "excerpt": "An authentic traveler's log exploring Boracay White Beach in Aklan. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Boracay White Beach in Aklan\n\nWorld-renowned powdery white sand beach, vibrant sunset sailing, and lively coastal dining.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Station 1 White Beach\n- **Adventure Pick:** Puka Shell Beach\n- **Photo Point:** Willy's Rock\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "5 min read",
+    "publishedAt": "2026-08-26",
+    "tags": [
+      "Aklan",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-005",
+    "title": "Chasing Waves & Palm Tree Forests: A Week in Siargao's Surf Paradise",
+    "slug": "siargao",
+    "destinationId": "siargao",
+    "destinationName": "Siargao Island",
+    "location": "Siargao Island, Surigao del Norte, Caraga, Philippines",
+    "category": "Surfing & Adventure",
+    "authorId": "user-006",
+    "author": {
+      "name": "Bianca Mercado",
+      "role": "Local Guide & Historian",
+      "avatar": "https://i.pravatar.cc/150?img=7"
+    },
+    "excerpt": "An authentic traveler's log exploring Siargao Island in Surigao del Norte. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Siargao Island in Surigao del Norte\n\nCapital of Philippine surfing, tear-drop island filled with coconut groves, rock pools, and wave breaks.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Cloud 9 Boardwalk\n- **Adventure Pick:** Magpupungko Rock Pools\n- **Photo Point:** Sugba Lagoon\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "readTime": "7 min read",
+    "publishedAt": "2026-08-25",
+    "tags": [
+      "Surigao del Norte",
+      "Surfing&Adventure",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-006",
+    "title": "Rolling Hills & Stone Houses: A Journey to Batanes, Edge of the World",
+    "slug": "batanes",
+    "destinationId": "batanes",
+    "destinationName": "Batanes Archipelago",
+    "location": "Batanes Archipelago, Batanes, Cagayan Valley, Philippines",
+    "category": "Culture & Heritage",
+    "authorId": "user-007",
+    "author": {
+      "name": "David Lindner",
+      "role": "Travel Photographer",
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    "excerpt": "An authentic traveler's log exploring Batanes Archipelago in Batanes. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Batanes Archipelago in Batanes\n\nRolling emerald cliffs, wind-swept lighthouses, traditional Ivatan stone houses, and Honesty Store.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Sabtang Island\n- **Adventure Pick:** Marlboro Hills\n- **Photo Point:** Basco Lighthouse\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "readTime": "8 min read",
+    "publishedAt": "2026-08-24",
+    "tags": [
+      "Batanes",
+      "Culture&Heritage",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-007",
+    "title": "Walking Among Clouds: Hiking the 2,000-Year-Old Banaue Rice Terraces",
+    "slug": "banaue",
+    "destinationId": "banaue",
+    "destinationName": "Banaue & Batad Rice Terraces",
+    "location": "Banaue & Batad Rice Terraces, Ifugao, CAR, Philippines",
+    "category": "Culture & Heritage",
+    "authorId": "user-008",
+    "author": {
+      "name": "Maria Ramos",
+      "role": "Foodie & Cultural Blogger",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    "excerpt": "An authentic traveler's log exploring Banaue & Batad Rice Terraces in Ifugao. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Banaue & Batad Rice Terraces in Ifugao\n\n2,000-year-old mountain terraces carved into the Ifugao mountain amphitheater by indigenous ancestors.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Batad Amphitheater\n- **Adventure Pick:** Tappiya Falls\n- **Photo Point:** Banaue Viewpoint\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "8 min read",
+    "publishedAt": "2026-08-23",
+    "tags": [
+      "Ifugao",
+      "Culture&Heritage",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-008",
+    "title": "Cobblestone Streets & Colonial Charms: 48 Hours in Historic Vigan",
+    "slug": "vigan",
+    "destinationId": "vigan",
+    "destinationName": "Vigan Historic City",
+    "location": "Vigan Historic City, Ilocos Sur, Ilocos Region, Philippines",
+    "category": "Culture & Heritage",
+    "authorId": "user-009",
+    "author": {
+      "name": "Sebastian Taylor",
+      "role": "Coastal Wanderer",
+      "avatar": "https://i.pravatar.cc/150?img=10"
+    },
+    "excerpt": "An authentic traveler's log exploring Vigan Historic City in Ilocos Sur. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Vigan Historic City in Ilocos Sur\n\nUNESCO World Heritage Spanish colonial town featuring cobblestone streets and Calle Crisologo.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Calle Crisologo\n- **Adventure Pick:** Syquia Mansion\n- **Photo Point:** Bantay Church Bell Tower\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "readTime": "5 min read",
+    "publishedAt": "2026-08-22",
+    "tags": [
+      "Ilocos Sur",
+      "Culture&Heritage",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-009",
+    "title": "Swimming with Millions of Sardines & Canyoneering at Kawasan Falls",
+    "slug": "moalboal",
+    "destinationId": "moalboal",
+    "destinationName": "Moalboal",
+    "location": "Moalboal, Cebu, Central Visayas, Philippines",
+    "category": "Diving & Marine Life",
+    "authorId": "user-010",
+    "author": {
+      "name": "Samantha Pineda",
+      "role": "Coastal Wanderer",
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "excerpt": "An authentic traveler's log exploring Moalboal in Cebu. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Moalboal in Cebu\n\nWorld-renowned sardine run right off Panagsama Beach alongside sea turtles and coral drop-offs.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Panagsama Sardine Run\n- **Adventure Pick:** Pescador Island Reef\n- **Photo Point:** White Beach Moalboal\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-21",
+    "tags": [
+      "Cebu",
+      "Diving&MarineLife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-010",
+    "title": "The Boracay of the North: Coastal Drives, Windmills, & Saud Beach",
+    "slug": "pagudpud",
+    "destinationId": "pagudpud",
+    "destinationName": "Pagudpud & Saud Beach",
+    "location": "Pagudpud & Saud Beach, Ilocos Norte, Ilocos Region, Philippines",
+    "category": "Road Trips & Coastal",
+    "authorId": "user-011",
+    "author": {
+      "name": "Markus White",
+      "role": "Adventure & Trekking Enthusiast",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    "excerpt": "An authentic traveler's log exploring Pagudpud & Saud Beach in Ilocos Norte. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Pagudpud & Saud Beach in Ilocos Norte\n\nThe Boracay of the North boasting wind farms, coastal viaducts, and sweeping white sand bays.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Saud Beach\n- **Adventure Pick:** Bangui Windmills\n- **Photo Point:** Patapat Viaduct\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "readTime": "5 min read",
+    "publishedAt": "2026-08-20",
+    "tags": [
+      "Ilocos Norte",
+      "RoadTrips&Coastal",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-011",
+    "title": "Sea of Clouds & Freezing Summits: The Ultimate Mt. Pulag Trek",
+    "slug": "mt-pulag",
+    "destinationId": "mt-pulag",
+    "destinationName": "Mount Pulag",
+    "location": "Mount Pulag, Benguet, CAR, Philippines",
+    "category": "Mountain Getaways",
+    "authorId": "user-012",
+    "author": {
+      "name": "Diego Castillo",
+      "role": "Island Explorer & Backpacker",
+      "avatar": "https://i.pravatar.cc/150?img=13"
+    },
+    "excerpt": "An authentic traveler's log exploring Mount Pulag in Benguet. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Mount Pulag in Benguet\n\n3rd highest peak in the Philippines, famous for its magical sea of clouds and freezing summit views.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Sea of Clouds\n- **Adventure Pick:** Akiki Trail\n- **Photo Point:** Ambangeg Trail\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "9 min read",
+    "publishedAt": "2026-08-19",
+    "tags": [
+      "Benguet",
+      "MountainGetaways",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-012",
+    "title": "1,200 Chocolate Hills, Tarsiers, & Loboc River Paddleboarding",
+    "slug": "chocolate-hills",
+    "destinationId": "chocolate-hills",
+    "destinationName": "Chocolate Hills",
+    "location": "Chocolate Hills, Bohol, Central Visayas, Philippines",
+    "category": "Nature & Wildlife",
+    "authorId": "user-013",
+    "author": {
+      "name": "Sarah Vance",
+      "role": "Foodie & Cultural Blogger",
+      "avatar": "https://i.pravatar.cc/150?img=14"
+    },
+    "excerpt": "An authentic traveler's log exploring Chocolate Hills in Bohol. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Chocolate Hills in Bohol\n\nGeological monument of over 1,260 symmetrical conical hills turning brown in dry season.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Carmen Chocolate Hills Complex\n- **Adventure Pick:** ATV Trail Ride\n- **Photo Point:** Sagbayan Peak\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-18",
+    "tags": [
+      "Bohol",
+      "Nature&Wildlife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-013",
+    "title": "Cool Breezes & Taal Views: A Quick Weekend Getaway to Tagaytay",
+    "slug": "tagaytay",
+    "destinationId": "tagaytay",
+    "destinationName": "Tagaytay City",
+    "location": "Tagaytay City, Cavite, Calabarzon, Philippines",
+    "category": "Mountain Getaways",
+    "authorId": "user-014",
+    "author": {
+      "name": "Samantha Torralba",
+      "role": "Adventure & Trekking Enthusiast",
+      "avatar": "https://i.pravatar.cc/150?img=15"
+    },
+    "excerpt": "An authentic traveler's log exploring Tagaytay City in Cavite. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Tagaytay City in Cavite\n\nRidge city overlooking Taal Lake and Taal Volcano, popular for cool climate and hot Bulalo soup.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Taal Lake Viewpoint\n- **Adventure Pick:** Picnic Grove\n- **Photo Point:** People's Park\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "readTime": "4 min read",
+    "publishedAt": "2026-08-17",
+    "tags": [
+      "Cavite",
+      "MountainGetaways",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-014",
+    "title": "ATV Lava Trail Adventures under the Perfect Cone of Mayon Volcano",
+    "slug": "mayon-volcano",
+    "destinationId": "mayon-volcano",
+    "destinationName": "Mayon Volcano",
+    "location": "Mayon Volcano, Albay, Bicol Region, Philippines",
+    "category": "Surfing & Adventure",
+    "authorId": "user-015",
+    "author": {
+      "name": "Markus Anderson",
+      "role": "Eco-Tourism Advocate",
+      "avatar": "https://i.pravatar.cc/150?img=16"
+    },
+    "excerpt": "An authentic traveler's log exploring Mayon Volcano in Albay. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Mayon Volcano in Albay\n\nWorld's most perfectly symmetrical stratovolcano, offering black lava trail ATV quad rides.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Cagsawa Ruins View\n- **Adventure Pick:** Black Lava Trail ATV\n- **Photo Point:** Mayon Skyline Park\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-16",
+    "tags": [
+      "Albay",
+      "Surfing&Adventure",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-015",
+    "title": "Cliff Jumps & Old Healing Traditions: Uncovering Siquijor's Magic",
+    "slug": "siquijor",
+    "destinationId": "siquijor",
+    "destinationName": "Siquijor Island",
+    "location": "Siquijor Island, Siquijor, Central Visayas, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-016",
+    "author": {
+      "name": "Dominic Del Rosario",
+      "role": "Adventure & Trekking Enthusiast",
+      "avatar": "https://i.pravatar.cc/150?img=17"
+    },
+    "excerpt": "An authentic traveler's log exploring Siquijor Island in Siquijor. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Siquijor Island in Siquijor\n\nEnchanted Island of Fire featuring Cambugahay rope swings, Century-Old Balete Tree, and coral bays.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Cambugahay Falls\n- **Adventure Pick:** Tubod Marine Sanctuary\n- **Photo Point:** Paliton Beach Sunset\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-15",
+    "tags": [
+      "Siquijor",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-016",
+    "title": "Surfing, Sunset Drinks, & Food Crawls in La Union (San Juan)",
+    "slug": "la-union",
+    "destinationId": "la-union",
+    "destinationName": "La Union (San Juan)",
+    "location": "La Union (San Juan), La Union, Ilocos Region, Philippines",
+    "category": "Surfing & Adventure",
+    "authorId": "user-017",
+    "author": {
+      "name": "Sarah Lindner",
+      "role": "Scuba Diving Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=18"
+    },
+    "excerpt": "An authentic traveler's log exploring La Union (San Juan) in La Union. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring La Union (San Juan) in La Union\n\nThe surf town capital of Luzon, offering chill beach vibe, food crawls, and sunset party spots.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Monaliza Point\n- **Adventure Pick:** Tangadan Falls\n- **Photo Point:** Urbiztondo Beach\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "readTime": "5 min read",
+    "publishedAt": "2026-08-14",
+    "tags": [
+      "La Union",
+      "Surfing&Adventure",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-017",
+    "title": "Macro Diving Paradise: Exploring Anilao's Secret Reef Gardens",
+    "slug": "anilao",
+    "destinationId": "anilao",
+    "destinationName": "Anilao, Mabini",
+    "location": "Anilao, Mabini, Batangas, Calabarzon, Philippines",
+    "category": "Diving & Marine Life",
+    "authorId": "user-018",
+    "author": {
+      "name": "Gabriel Torralba",
+      "role": "Local Guide & Historian",
+      "avatar": "https://i.pravatar.cc/150?img=19"
+    },
+    "excerpt": "An authentic traveler's log exploring Anilao, Mabini in Batangas. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Anilao, Mabini in Batangas\n\nBirthplace of Philippine scuba diving, renowned for macro photography and coral garden reefs.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Cathedral Rock\n- **Adventure Pick:** Sombrero Island\n- **Photo Point:** Twin Rocks\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "readTime": "7 min read",
+    "publishedAt": "2026-08-13",
+    "tags": [
+      "Batangas",
+      "Diving&MarineLife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-018",
+    "title": "Pinatubo Crater Trek: 4x4 Rides Across Black Volcanic Ash Fields",
+    "slug": "mt-pinatubo",
+    "destinationId": "mt-pinatubo",
+    "destinationName": "Mount Pinatubo Crater Lake",
+    "location": "Mount Pinatubo Crater Lake, Zambales / Tarlac, Central Luzon, Philippines",
+    "category": "Surfing & Adventure",
+    "authorId": "user-019",
+    "author": {
+      "name": "Zoe Schneider",
+      "role": "Adventure & Trekking Enthusiast",
+      "avatar": "https://i.pravatar.cc/150?img=20"
+    },
+    "excerpt": "An authentic traveler's log exploring Mount Pinatubo Crater Lake in Zambales / Tarlac. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Mount Pinatubo Crater Lake in Zambales / Tarlac\n\nTrek across vast volcanic ash fields and ride 4x4 Jeeps to reach an turquoise crater lake.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Pinatubo Crater Lake\n- **Adventure Pick:** 4x4 ATV Trail\n- **Photo Point:** Aeta Cultural Village\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "readTime": "7 min read",
+    "publishedAt": "2026-08-12",
+    "tags": [
+      "Zambales / Tarlac",
+      "Surfing&Adventure",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-019",
+    "title": "Island Hopping in Balabac: Finding the Philippines' Purest Sandbars",
+    "slug": "balabac",
+    "destinationId": "balabac",
+    "destinationName": "Balabac Islands",
+    "location": "Balabac Islands, Palawan, MIMAROPA, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-020",
+    "author": {
+      "name": "Lucas Del Rosario",
+      "role": "Coastal Wanderer",
+      "avatar": "https://i.pravatar.cc/150?img=21"
+    },
+    "excerpt": "An authentic traveler's log exploring Balabac Islands in Palawan. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Balabac Islands in Palawan\n\nUntouched southern archipelago featuring pristine sandbars, pinkish sands, and crystal-clear waters.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Onuk Island\n- **Adventure Pick:** Candaraman Sandbar\n- **Photo Point:** Punta Sebaring\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "8 min read",
+    "publishedAt": "2026-08-11",
+    "tags": [
+      "Palawan",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-020",
+    "title": "Grandfather of Peaks: Scaling Mount Apo's Sulfur Vents & Boulders",
+    "slug": "mt-apo",
+    "destinationId": "mt-apo",
+    "destinationName": "Mount Apo",
+    "location": "Mount Apo, Davao del Sur, Davao Region, Philippines",
+    "category": "Mountain Getaways",
+    "authorId": "user-021",
+    "author": {
+      "name": "Aria Smith",
+      "role": "Island Explorer & Backpacker",
+      "avatar": "https://i.pravatar.cc/150?img=22"
+    },
+    "excerpt": "An authentic traveler's log exploring Mount Apo in Davao del Sur. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Mount Apo in Davao del Sur\n\nGrandfather of Philippine Mountains, highest peak at 2,954m featuring boulder trails and sulfur vents.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Mt Apo Summit\n- **Adventure Pick:** Lake Venado\n- **Photo Point:** Boulder Face\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "9 min read",
+    "publishedAt": "2026-08-10",
+    "tags": [
+      "Davao del Sur",
+      "MountainGetaways",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-021",
+    "title": "Skimboarding & 7-Kilometer White Sands at Dahican Beach, Mati",
+    "slug": "mati-dahican",
+    "destinationId": "mati-dahican",
+    "destinationName": "Mati (Dahican Beach)",
+    "location": "Mati (Dahican Beach), Davao Oriental, Davao Region, Philippines",
+    "category": "Surfing & Adventure",
+    "authorId": "user-022",
+    "author": {
+      "name": "Juan Torralba",
+      "role": "Digital Nomad & Writer",
+      "avatar": "https://i.pravatar.cc/150?img=23"
+    },
+    "excerpt": "An authentic traveler's log exploring Mati (Dahican Beach) in Davao Oriental. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Mati (Dahican Beach) in Davao Oriental\n\n7-kilometer crescent white sand beach famous for skimboarding, surfing, and sea turtle nests.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Dahican Beach\n- **Adventure Pick:** Sleeping Dinosaur Hill\n- **Photo Point:** Subangan Museum\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "readTime": "5 min read",
+    "publishedAt": "2026-08-09",
+    "tags": [
+      "Davao Oriental",
+      "Surfing&Adventure",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-022",
+    "title": "T'boli Weavers, Lotus Lakes, & Ziplining over 7 Waterfalls in Lake Sebu",
+    "slug": "lake-sebu",
+    "destinationId": "lake-sebu",
+    "destinationName": "Lake Sebu",
+    "location": "Lake Sebu, South Cotabato, SOCCSKSARGEN, Philippines",
+    "category": "Culture & Heritage",
+    "authorId": "user-023",
+    "author": {
+      "name": "Ethan Anderson",
+      "role": "Digital Nomad & Writer",
+      "avatar": "https://i.pravatar.cc/150?img=24"
+    },
+    "excerpt": "An authentic traveler's log exploring Lake Sebu in South Cotabato. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Lake Sebu in South Cotabato\n\nPicturesque highland lake famous for T'boli indigenous weavers, lotus gardens, and 7 Waterfalls Zipline.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** 7 Waterfalls Zipline\n- **Adventure Pick:** T'boli School of Living Traditions\n- **Photo Point:** Lotus Lake Cruise\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-08",
+    "tags": [
+      "South Cotabato",
+      "Culture&Heritage",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-023",
+    "title": "The Sapphire Wonder: Swimming in Hinatuan's Enchanted Blue River",
+    "slug": "enchanted-river",
+    "destinationId": "enchanted-river",
+    "destinationName": "Enchanted River (Hinatuan)",
+    "location": "Enchanted River (Hinatuan), Surigao del Sur, Caraga, Philippines",
+    "category": "Nature & Wildlife",
+    "authorId": "user-024",
+    "author": {
+      "name": "Maria Torralba",
+      "role": "Foodie & Cultural Blogger",
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    },
+    "excerpt": "An authentic traveler's log exploring Enchanted River (Hinatuan) in Surigao del Sur. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Enchanted River (Hinatuan) in Surigao del Sur\n\nDeep sapphire blue river nestled in jungle, famous for its mysterious depth and daily fish feeding ritual.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Blue Lagoon River\n- **Adventure Pick:** Fish Feeding Sanctuary\n- **Photo Point:** Sibadan Fish Cage\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "5 min read",
+    "publishedAt": "2026-08-07",
+    "tags": [
+      "Surigao del Sur",
+      "Nature&Wildlife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-024",
+    "title": "7 Volcanoes, Hot Springs, & White Sandbars: The Island of Camiguin",
+    "slug": "camiguin",
+    "destinationId": "camiguin",
+    "destinationName": "Camiguin Island",
+    "location": "Camiguin Island, Camiguin, Northern Mindanao, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-025",
+    "author": {
+      "name": "Mia Rivers",
+      "role": "Foodie & Cultural Blogger",
+      "avatar": "https://i.pravatar.cc/150?img=26"
+    },
+    "excerpt": "An authentic traveler's log exploring Camiguin Island in Camiguin. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Camiguin Island in Camiguin\n\nThe Island Born of Fire with 7 volcanoes, white sandbars, hot springs, and Sunken Cemetery.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** White Island Sandbar\n- **Adventure Pick:** Sunken Cemetery\n- **Photo Point:** Katibawasan Falls\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "7 min read",
+    "publishedAt": "2026-08-06",
+    "tags": [
+      "Camiguin",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-025",
+    "title": "Thresher Sharks at Dawn: Monad Shoal Diving in Malapascua",
+    "slug": "malapascua",
+    "destinationId": "malapascua",
+    "destinationName": "Malapascua Island",
+    "location": "Malapascua Island, Cebu, Central Visayas, Philippines",
+    "category": "Diving & Marine Life",
+    "authorId": "user-026",
+    "author": {
+      "name": "Javier Villanueva",
+      "role": "Coastal Wanderer",
+      "avatar": "https://i.pravatar.cc/150?img=27"
+    },
+    "excerpt": "An authentic traveler's log exploring Malapascua Island in Cebu. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Malapascua Island in Cebu\n\nWorld's premier diving destination to spot pelagic Thresher Sharks at Monad Shoal reef.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Monad Shoal Thresher Dive\n- **Adventure Pick:** Bounty Beach\n- **Photo Point:** Lighthouse Beach\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "8 min read",
+    "publishedAt": "2026-08-05",
+    "tags": [
+      "Cebu",
+      "Diving&MarineLife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-026",
+    "title": "The Maldives of Negros: Floating Cottages on Manjuyod Sandbar",
+    "slug": "manjuyod",
+    "destinationId": "manjuyod",
+    "destinationName": "Manjuyod Sandbar",
+    "location": "Manjuyod Sandbar, Negros Oriental, Central Visayas, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-027",
+    "author": {
+      "name": "Daniel Schneider",
+      "role": "Travel Photographer",
+      "avatar": "https://i.pravatar.cc/150?img=28"
+    },
+    "excerpt": "An authentic traveler's log exploring Manjuyod Sandbar in Negros Oriental. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Manjuyod Sandbar in Negros Oriental\n\nThe Maldives of the Philippines, a 7-kilometer pristine white sandbar floating in Bais Bay.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Manjuyod Sandbar Cottages\n- **Adventure Pick:** Bais Bay Dolphin Watching\n- **Photo Point:** Bird Sanctuary\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "readTime": "5 min read",
+    "publishedAt": "2026-08-04",
+    "tags": [
+      "Negros Oriental",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-027",
+    "title": "Taj Mahal of Negros & MassKara Smiles: A Bacolod Cultural Tour",
+    "slug": "bacolod-ruins",
+    "destinationId": "bacolod-ruins",
+    "destinationName": "Bacolod City (The Ruins)",
+    "location": "Bacolod City (The Ruins), Negros Occidental, Western Visayas, Philippines",
+    "category": "Culture & Heritage",
+    "authorId": "user-028",
+    "author": {
+      "name": "Enzo Dela Cruz",
+      "role": "Foodie & Cultural Blogger",
+      "avatar": "https://i.pravatar.cc/150?img=29"
+    },
+    "excerpt": "An authentic traveler's log exploring Bacolod City (The Ruins) in Negros Occidental. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Bacolod City (The Ruins) in Negros Occidental\n\nCity of Smiles, famous for the Taj Mahal of Negros (The Ruins), MassKara Festival, and Inasal.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** The Ruins Mansion\n- **Adventure Pick:** Bacolod Public Plaza\n- **Photo Point:** Manokan Country Inasal\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-03",
+    "tags": [
+      "Negros Occidental",
+      "Culture&Heritage",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-028",
+    "title": "Cheap Scallops & Turquoise Lagoons: Exploring Islas de Gigantes",
+    "slug": "gigantes-islands",
+    "destinationId": "gigantes-islands",
+    "destinationName": "Islas de Gigantes",
+    "location": "Islas de Gigantes, Iloilo, Western Visayas, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-029",
+    "author": {
+      "name": "Elena O'Connor",
+      "role": "Local Guide & Historian",
+      "avatar": "https://i.pravatar.cc/150?img=30"
+    },
+    "excerpt": "An authentic traveler's log exploring Islas de Gigantes in Iloilo. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Islas de Gigantes in Iloilo\n\nIsland group boasting Cabugao Gamay islet, Tangke saltwater lagoon, and cheap ₱1 scallops.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Cabugao Gamay Island\n- **Adventure Pick:** Tangke Saltwater Lagoon\n- **Photo Point:** Antonia Beach\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "6 min read",
+    "publishedAt": "2026-08-02",
+    "tags": [
+      "Iloilo",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-029",
+    "title": "Postcard Sandbars & Crystalline Seas: Camping on Kalanggaman Island",
+    "slug": "kalanggaman",
+    "destinationId": "kalanggaman",
+    "destinationName": "Kalanggaman Island",
+    "location": "Kalanggaman Island, Leyte, Eastern Visayas, Philippines",
+    "category": "Beaches & Islands",
+    "authorId": "user-030",
+    "author": {
+      "name": "Javier Valdez",
+      "role": "Local Guide & Historian",
+      "avatar": "https://i.pravatar.cc/150?img=31"
+    },
+    "excerpt": "An authentic traveler's log exploring Kalanggaman Island in Leyte. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Kalanggaman Island in Leyte\n\nStunning postcard island with a long, pristine white sandbar stretching out into crystal waters.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Long White Sandbar\n- **Adventure Pick:** Aqua Marine Reef\n- **Photo Point:** Palompon Eco Tour\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "readTime": "7 min read",
+    "publishedAt": "2026-08-01",
+    "tags": [
+      "Leyte",
+      "Beaches&Islands",
+      "TravelGuide",
+      "Philippines"
+    ]
+  },
+  {
+    "id": "art-030",
+    "title": "Stingless Jellyfish Sanctuaries & Secret Caves in Sohoton Cove",
+    "slug": "sohoton-cove",
+    "destinationId": "sohoton-cove",
+    "destinationName": "Sohoton Cove (Bucas Grande)",
+    "location": "Sohoton Cove (Bucas Grande), Surigao del Norte, Caraga, Philippines",
+    "category": "Nature & Wildlife",
+    "authorId": "user-031",
+    "author": {
+      "name": "Noah Johnson",
+      "role": "Foodie & Cultural Blogger",
+      "avatar": "https://i.pravatar.cc/150?img=32"
+    },
+    "excerpt": "An authentic traveler's log exploring Sohoton Cove (Bucas Grande) in Surigao del Norte. Read full tips, itineraries, and guides.",
+    "fullContent": "### Exploring Sohoton Cove (Bucas Grande) in Surigao del Norte\n\nMystical maze of limestone islets, stingless jellyfish sanctuaries, and submarine cave entryways.\n\n### Top Highlights & Itinerary Tips:\n- **Must-Visit Spot:** Stingless Jellyfish Sanctuary\n- **Adventure Pick:** Hagukan Cave\n- **Photo Point:** Magkukuob Cave Jump\n\n### Travel Advice for Backpackers:\n- **Best Season:** November to April dry season.\n- **What to Pack:** Reusable water bottle, reef-safe sunscreen, dry bag, and local currency (PHP cash).\n- **Local Hospitality:** Always greet locals with a warm 'Mabuhay!'",
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "readTime": "7 min read",
+    "publishedAt": "2026-08-00",
+    "tags": [
+      "Surigao del Norte",
+      "Nature&Wildlife",
+      "TravelGuide",
+      "Philippines"
+    ]
+  }
+]

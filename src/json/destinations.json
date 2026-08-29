@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "el-nido",
+    "name": "El Nido",
+    "province": "Palawan",
+    "region": "MIMAROPA",
+    "category": "Beaches & Islands",
+    "description": "Towering limestone karst cliffs, secret lagoons, and turquoise waters in Bacuit Bay.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "popularSpots": [
+      "Big Lagoon",
+      "Secret Lagoon",
+      "7 Commandos Beach",
+      "Shimizu Island"
+    ],
+    "location": "El Nido, Palawan, MIMAROPA, Philippines"
+  },
+  {
+    "id": "coron",
+    "name": "Coron",
+    "province": "Palawan",
+    "region": "MIMAROPA",
+    "category": "Diving & Marine Life",
+    "description": "Famous for WWII Japanese shipwrecks, Kayangan Lake mirror waters, and thermocline lakes.",
+    "image": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "popularSpots": [
+      "Kayangan Lake",
+      "Barracuda Lake",
+      "Twin Lagoon",
+      "WWII Shipwrecks"
+    ],
+    "location": "Coron, Palawan, MIMAROPA, Philippines"
+  },
+  {
+    "id": "puerto-princesa",
+    "name": "Puerto Princesa Underground River",
+    "province": "Palawan",
+    "region": "MIMAROPA",
+    "category": "Nature & Wildlife",
+    "description": "New 7 Wonders of Nature subterranean river flowing directly into the sea through limestone caverns.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Underground River Cave",
+      "Sabang Beach",
+      "Honda Bay",
+      "Ugong Rock"
+    ],
+    "location": "Puerto Princesa Underground River, Palawan, MIMAROPA, Philippines"
+  },
+  {
+    "id": "port-barton",
+    "name": "Port Barton",
+    "province": "Palawan",
+    "region": "MIMAROPA",
+    "category": "Beaches & Islands",
+    "description": "Quiet coastal village with laid-back beach vibe, sea turtle sanctuaries, and island hopping.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Starfish Island",
+      "German Island",
+      "Inaladelan",
+      "Pamuayan Falls"
+    ],
+    "location": "Port Barton, Palawan, MIMAROPA, Philippines"
+  },
+  {
+    "id": "balabac",
+    "name": "Balabac Islands",
+    "province": "Palawan",
+    "region": "MIMAROPA",
+    "category": "Beaches & Islands",
+    "description": "Untouched southern archipelago featuring pristine sandbars, pinkish sands, and crystal-clear waters.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Onuk Island",
+      "Candaraman Sandbar",
+      "Punta Sebaring",
+      "Cape Melville"
+    ],
+    "location": "Balabac Islands, Palawan, MIMAROPA, Philippines"
+  },
+  {
+    "id": "boracay",
+    "name": "Boracay White Beach",
+    "province": "Aklan",
+    "region": "Western Visayas",
+    "category": "Beaches & Islands",
+    "description": "World-renowned powdery white sand beach, vibrant sunset sailing, and lively coastal dining.",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Station 1 White Beach",
+      "Puka Shell Beach",
+      "Willy's Rock",
+      "Bulabog Beach"
+    ],
+    "location": "Boracay White Beach, Aklan, Western Visayas, Philippines"
+  },
+  {
+    "id": "siargao",
+    "name": "Siargao Island",
+    "province": "Surigao del Norte",
+    "region": "Caraga",
+    "category": "Surfing & Adventure",
+    "description": "Capital of Philippine surfing, tear-drop island filled with coconut groves, rock pools, and wave breaks.",
+    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "popularSpots": [
+      "Cloud 9 Boardwalk",
+      "Magpupungko Rock Pools",
+      "Sugba Lagoon",
+      "Maasin River"
+    ],
+    "location": "Siargao Island, Surigao del Norte, Caraga, Philippines"
+  },
+  {
+    "id": "batanes",
+    "name": "Batanes Archipelago",
+    "province": "Batanes",
+    "region": "Cagayan Valley",
+    "category": "Culture & Heritage",
+    "description": "Rolling emerald cliffs, wind-swept lighthouses, traditional Ivatan stone houses, and Honesty Store.",
+    "image": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "popularSpots": [
+      "Sabtang Island",
+      "Marlboro Hills",
+      "Basco Lighthouse",
+      "Chavayan Stone Village"
+    ],
+    "location": "Batanes Archipelago, Batanes, Cagayan Valley, Philippines"
+  },
+  {
+    "id": "banaue",
+    "name": "Banaue & Batad Rice Terraces",
+    "province": "Ifugao",
+    "region": "CAR",
+    "category": "Culture & Heritage",
+    "description": "2,000-year-old mountain terraces carved into the Ifugao mountain amphitheater by indigenous ancestors.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Batad Amphitheater",
+      "Tappiya Falls",
+      "Banaue Viewpoint",
+      "Bangkolo Terraces"
+    ],
+    "location": "Banaue & Batad Rice Terraces, Ifugao, CAR, Philippines"
+  },
+  {
+    "id": "sagada",
+    "name": "Sagada Mountain Province",
+    "province": "Mountain Province",
+    "region": "CAR",
+    "category": "Culture & Heritage",
+    "description": "Mist-shrouded mountain town famous for hanging coffins, Sumaguing Cave, and sea of clouds sunrise.",
+    "image": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Hanging Coffins",
+      "Sumaguing Cave",
+      "Kiltepan Viewpoint",
+      "Echo Valley"
+    ],
+    "location": "Sagada Mountain Province, Mountain Province, CAR, Philippines"
+  },
+  {
+    "id": "vigan",
+    "name": "Vigan Historic City",
+    "province": "Ilocos Sur",
+    "region": "Ilocos Region",
+    "category": "Culture & Heritage",
+    "description": "UNESCO World Heritage Spanish colonial town featuring cobblestone streets and Calle Crisologo.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Calle Crisologo",
+      "Syquia Mansion",
+      "Bantay Church Bell Tower",
+      "Plaza Salcedo"
+    ],
+    "location": "Vigan Historic City, Ilocos Sur, Ilocos Region, Philippines"
+  },
+  {
+    "id": "pagudpud",
+    "name": "Pagudpud & Saud Beach",
+    "province": "Ilocos Norte",
+    "region": "Ilocos Region",
+    "category": "Road Trips & Coastal",
+    "description": "The Boracay of the North boasting wind farms, coastal viaducts, and sweeping white sand bays.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Saud Beach",
+      "Bangui Windmills",
+      "Patapat Viaduct",
+      "Kabuigan Falls"
+    ],
+    "location": "Pagudpud & Saud Beach, Ilocos Norte, Ilocos Region, Philippines"
+  },
+  {
+    "id": "la-union",
+    "name": "La Union (San Juan)",
+    "province": "La Union",
+    "region": "Ilocos Region",
+    "category": "Surfing & Adventure",
+    "description": "The surf town capital of Luzon, offering chill beach vibe, food crawls, and sunset party spots.",
+    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Monaliza Point",
+      "Tangadan Falls",
+      "Urbiztondo Beach",
+      "Ma-Cho Temple"
+    ],
+    "location": "La Union (San Juan), La Union, Ilocos Region, Philippines"
+  },
+  {
+    "id": "mt-pulag",
+    "name": "Mount Pulag",
+    "province": "Benguet",
+    "region": "CAR",
+    "category": "Mountain Getaways",
+    "description": "3rd highest peak in the Philippines, famous for its magical sea of clouds and freezing summit views.",
+    "image": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Sea of Clouds",
+      "Akiki Trail",
+      "Ambangeg Trail",
+      "Towering Pines"
+    ],
+    "location": "Mount Pulag, Benguet, CAR, Philippines"
+  },
+  {
+    "id": "baguio",
+    "name": "Baguio City",
+    "province": "Benguet",
+    "region": "CAR",
+    "category": "Mountain Getaways",
+    "description": "The Summer Capital of the Philippines, nestled in pine forests with cool mountain air and fresh strawberries.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "popularSpots": [
+      "Burnham Park",
+      "Mines View Park",
+      "Strawberry Farm",
+      "Camp John Hay"
+    ],
+    "location": "Baguio City, Benguet, CAR, Philippines"
+  },
+  {
+    "id": "hundred-islands",
+    "name": "Hundred Islands National Park",
+    "province": "Pangasinan",
+    "region": "Ilocos Region",
+    "category": "Beaches & Islands",
+    "description": "Over 120 mushroom-shaped islands scattered in Lingayen Gulf, perfect for ziplining and cave swimming.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "popularSpots": [
+      "Governor's Island",
+      "Quezon Island",
+      "Marcos Cave",
+      "Pilgrim Island"
+    ],
+    "location": "Hundred Islands National Park, Pangasinan, Ilocos Region, Philippines"
+  },
+  {
+    "id": "tagaytay",
+    "name": "Tagaytay City",
+    "province": "Cavite",
+    "region": "Calabarzon",
+    "category": "Mountain Getaways",
+    "description": "Ridge city overlooking Taal Lake and Taal Volcano, popular for cool climate and hot Bulalo soup.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Taal Lake Viewpoint",
+      "Picnic Grove",
+      "People's Park",
+      "Crosswinds Tagaytay"
+    ],
+    "location": "Tagaytay City, Cavite, Calabarzon, Philippines"
+  },
+  {
+    "id": "anilao",
+    "name": "Anilao, Mabini",
+    "province": "Batangas",
+    "region": "Calabarzon",
+    "category": "Diving & Marine Life",
+    "description": "Birthplace of Philippine scuba diving, renowned for macro photography and coral garden reefs.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Cathedral Rock",
+      "Sombrero Island",
+      "Twin Rocks",
+      "Secret Bay"
+    ],
+    "location": "Anilao, Mabini, Batangas, Calabarzon, Philippines"
+  },
+  {
+    "id": "nasugbu-calatagan",
+    "name": "Nasugbu & Calatagan",
+    "province": "Batangas",
+    "region": "Calabarzon",
+    "category": "Beaches & Islands",
+    "description": "Popular weekend getaway beaches featuring sandbars, heritage lighthouses, and beach resorts.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.5,
+    "popularSpots": [
+      "Fortune Island",
+      "Cape Santiago Lighthouse",
+      "Stilt Imperial Beach",
+      "Layag Layag Beach"
+    ],
+    "location": "Nasugbu & Calatagan, Batangas, Calabarzon, Philippines"
+  },
+  {
+    "id": "mt-pinatubo",
+    "name": "Mount Pinatubo Crater Lake",
+    "province": "Zambales / Tarlac",
+    "region": "Central Luzon",
+    "category": "Surfing & Adventure",
+    "description": "Trek across vast volcanic ash fields and ride 4x4 Jeeps to reach an turquoise crater lake.",
+    "image": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Pinatubo Crater Lake",
+      "4x4 ATV Trail",
+      "Aeta Cultural Village",
+      "Capas Shrine"
+    ],
+    "location": "Mount Pinatubo Crater Lake, Zambales / Tarlac, Central Luzon, Philippines"
+  },
+  {
+    "id": "anawangin",
+    "name": "Anawangin & Nagsasa Coves",
+    "province": "Zambales",
+    "region": "Central Luzon",
+    "category": "Beaches & Islands",
+    "description": "Pine-tree lined volcanic ash coves created by Mount Pinatubo, perfect for camping under stars.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "popularSpots": [
+      "Anawangin Cove",
+      "Nagsasa Cove",
+      "Capones Island",
+      "Anawangin Hill Lookout"
+    ],
+    "location": "Anawangin & Nagsasa Coves, Zambales, Central Luzon, Philippines"
+  },
+  {
+    "id": "subic-bay",
+    "name": "Subic Bay",
+    "province": "Zambales",
+    "region": "Central Luzon",
+    "category": "Nature & Wildlife",
+    "description": "Coastal bay featuring eco-tourism parks, jungle survival treks, wreck diving, and ocean adventures.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.5,
+    "popularSpots": [
+      "Ocean Adventure",
+      "Zoobic Safari",
+      "El Kabayo Waterfalls",
+      "Subic Wreck Diving"
+    ],
+    "location": "Subic Bay, Zambales, Central Luzon, Philippines"
+  },
+  {
+    "id": "mt-apo",
+    "name": "Mount Apo",
+    "province": "Davao del Sur",
+    "region": "Davao Region",
+    "category": "Mountain Getaways",
+    "description": "Grandfather of Philippine Mountains, highest peak at 2,954m featuring boulder trails and sulfur vents.",
+    "image": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Mt Apo Summit",
+      "Lake Venado",
+      "Boulder Face",
+      "Century-old Mossy Forest"
+    ],
+    "location": "Mount Apo, Davao del Sur, Davao Region, Philippines"
+  },
+  {
+    "id": "samal-island",
+    "name": "Samal Island",
+    "province": "Davao del Norte",
+    "region": "Davao Region",
+    "category": "Beaches & Islands",
+    "description": "Island Garden City of Samal, blessed with white sand beaches, coral reefs, and bat sanctuaries.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Hagimit Falls",
+      "Monfort Bat Sanctuary",
+      "Talikud Island",
+      "Canibad Beach"
+    ],
+    "location": "Samal Island, Davao del Norte, Davao Region, Philippines"
+  },
+  {
+    "id": "mati-dahican",
+    "name": "Mati (Dahican Beach)",
+    "province": "Davao Oriental",
+    "region": "Davao Region",
+    "category": "Surfing & Adventure",
+    "description": "7-kilometer crescent white sand beach famous for skimboarding, surfing, and sea turtle nests.",
+    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Dahican Beach",
+      "Sleeping Dinosaur Hill",
+      "Subangan Museum",
+      "Waniban Island"
+    ],
+    "location": "Mati (Dahican Beach), Davao Oriental, Davao Region, Philippines"
+  },
+  {
+    "id": "lake-sebu",
+    "name": "Lake Sebu",
+    "province": "South Cotabato",
+    "region": "SOCCSKSARGEN",
+    "category": "Culture & Heritage",
+    "description": "Picturesque highland lake famous for T'boli indigenous weavers, lotus gardens, and 7 Waterfalls Zipline.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "7 Waterfalls Zipline",
+      "T'boli School of Living Traditions",
+      "Lotus Lake Cruise",
+      "Hikong Bente Waterfall"
+    ],
+    "location": "Lake Sebu, South Cotabato, SOCCSKSARGEN, Philippines"
+  },
+  {
+    "id": "asik-asik",
+    "name": "Asik-Asik Falls",
+    "province": "North Cotabato",
+    "region": "SOCCSKSARGEN",
+    "category": "Nature & Wildlife",
+    "description": "Curtain of spring water cascading straight out of a lush green cliff face in Alamada.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Asik-Asik Spring Falls",
+      "Alamada Highlands",
+      "Dado River",
+      "Green Cliff Curtain"
+    ],
+    "location": "Asik-Asik Falls, North Cotabato, SOCCSKSARGEN, Philippines"
+  },
+  {
+    "id": "enchanted-river",
+    "name": "Enchanted River (Hinatuan)",
+    "province": "Surigao del Sur",
+    "region": "Caraga",
+    "category": "Nature & Wildlife",
+    "description": "Deep sapphire blue river nestled in jungle, famous for its mysterious depth and daily fish feeding ritual.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Blue Lagoon River",
+      "Fish Feeding Sanctuary",
+      "Sibadan Fish Cage",
+      "Rock Island"
+    ],
+    "location": "Enchanted River (Hinatuan), Surigao del Sur, Caraga, Philippines"
+  },
+  {
+    "id": "britania-islands",
+    "name": "Britania Islands",
+    "province": "Surigao del Sur",
+    "region": "Caraga",
+    "category": "Beaches & Islands",
+    "description": "Group of 24 untouched islets floating on calm clear waters with fine white sandbars.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Naked Island Sandbar",
+      "Boslon Island",
+      "Hagakhak Island",
+      "Hiyulid Island"
+    ],
+    "location": "Britania Islands, Surigao del Sur, Caraga, Philippines"
+  },
+  {
+    "id": "camiguin",
+    "name": "Camiguin Island",
+    "province": "Camiguin",
+    "region": "Northern Mindanao",
+    "category": "Beaches & Islands",
+    "description": "The Island Born of Fire with 7 volcanoes, white sandbars, hot springs, and Sunken Cemetery.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "White Island Sandbar",
+      "Sunken Cemetery",
+      "Katibawasan Falls",
+      "Ardent Hot Springs"
+    ],
+    "location": "Camiguin Island, Camiguin, Northern Mindanao, Philippines"
+  },
+  {
+    "id": "cagayan-de-oro",
+    "name": "Cagayan de Oro Rafting",
+    "province": "Misamis Oriental",
+    "region": "Northern Mindanao",
+    "category": "Surfing & Adventure",
+    "description": "White Water Rafting capital of the Philippines, taking thrillseekers across CDO river rapids.",
+    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "CDO River Rafting",
+      "Mapawa Nature Park",
+      "Seven Seas Waterpark",
+      "Macahambus Cave"
+    ],
+    "location": "Cagayan de Oro Rafting, Misamis Oriental, Northern Mindanao, Philippines"
+  },
+  {
+    "id": "dahilayan",
+    "name": "Dahilayan Adventure Park",
+    "province": "Bukidnon",
+    "region": "Northern Mindanao",
+    "category": "Surfing & Adventure",
+    "description": "Cool mountain adventure park featuring Asia's longest dual zipline and alpine coaster.",
+    "image": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Dual Zipline",
+      "Dropzone Swing",
+      "Alpine Coaster",
+      "Pine Tree Park"
+    ],
+    "location": "Dahilayan Adventure Park, Bukidnon, Northern Mindanao, Philippines"
+  },
+  {
+    "id": "tinuy-an",
+    "name": "Tinuy-an Falls",
+    "province": "Surigao del Sur",
+    "region": "Caraga",
+    "category": "Nature & Wildlife",
+    "description": "The Niagara Falls of the Philippines, a 95-meter wide 3-tier curtain waterfall in Bislig.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "3-Tier Curtain Falls",
+      "Bamboo Raft Ride",
+      "Mist Rainbow Point",
+      "Eco Trail"
+    ],
+    "location": "Tinuy-an Falls, Surigao del Sur, Caraga, Philippines"
+  },
+  {
+    "id": "chocolate-hills",
+    "name": "Chocolate Hills",
+    "province": "Bohol",
+    "region": "Central Visayas",
+    "category": "Nature & Wildlife",
+    "description": "Geological monument of over 1,260 symmetrical conical hills turning brown in dry season.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Carmen Chocolate Hills Complex",
+      "ATV Trail Ride",
+      "Sagbayan Peak",
+      "Buggy Ride"
+    ],
+    "location": "Chocolate Hills, Bohol, Central Visayas, Philippines"
+  },
+  {
+    "id": "panglao",
+    "name": "Panglao Island",
+    "province": "Bohol",
+    "region": "Central Visayas",
+    "category": "Beaches & Islands",
+    "description": "Tropical island paradise known for Alona Beach, dolphin watching cruises, and Balicasag diving.",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Alona Beach",
+      "Balicasag Marine Sanctuary",
+      "Virgin Island Sandbar",
+      "Hinagdanan Cave"
+    ],
+    "location": "Panglao Island, Bohol, Central Visayas, Philippines"
+  },
+  {
+    "id": "loboc-river",
+    "name": "Loboc River",
+    "province": "Bohol",
+    "region": "Central Visayas",
+    "category": "Culture & Heritage",
+    "description": "Scenic green river cruise featuring buffet floating restaurants, traditional music, and paddleboarding.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Floating Restaurant Cruise",
+      "Stand-Up Paddleboarding",
+      "Firefly Night Cruise",
+      "Tarsier Sanctuary"
+    ],
+    "location": "Loboc River, Bohol, Central Visayas, Philippines"
+  },
+  {
+    "id": "moalboal",
+    "name": "Moalboal",
+    "province": "Cebu",
+    "region": "Central Visayas",
+    "category": "Diving & Marine Life",
+    "description": "World-renowned sardine run right off Panagsama Beach alongside sea turtles and coral drop-offs.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Panagsama Sardine Run",
+      "Pescador Island Reef",
+      "White Beach Moalboal",
+      "Turtle Point"
+    ],
+    "location": "Moalboal, Cebu, Central Visayas, Philippines"
+  },
+  {
+    "id": "oslob",
+    "name": "Oslob Whale Sharks",
+    "province": "Cebu",
+    "region": "Central Visayas",
+    "category": "Diving & Marine Life",
+    "description": "Famous coastal sanctuary for snorkeling alongside giant gentle whale sharks (Tuki).",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "popularSpots": [
+      "Whale Shark Snorkeling",
+      "Sumilon Island Sandbar",
+      "Tumalog Falls",
+      "Cuartel Ruins"
+    ],
+    "location": "Oslob Whale Sharks, Cebu, Central Visayas, Philippines"
+  },
+  {
+    "id": "bantayan",
+    "name": "Bantayan Island",
+    "province": "Cebu",
+    "region": "Central Visayas",
+    "category": "Beaches & Islands",
+    "description": "Serene tropical getaway boasting sugar-white sand beaches, calm shallow waters, and bike routes.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Kota Beach Sandbar",
+      "Paradise Beach",
+      "Ogtong Cave",
+      "Mangrove Eco Park"
+    ],
+    "location": "Bantayan Island, Cebu, Central Visayas, Philippines"
+  },
+  {
+    "id": "malapascua",
+    "name": "Malapascua Island",
+    "province": "Cebu",
+    "region": "Central Visayas",
+    "category": "Diving & Marine Life",
+    "description": "World's premier diving destination to spot pelagic Thresher Sharks at Monad Shoal reef.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Monad Shoal Thresher Dive",
+      "Bounty Beach",
+      "Lighthouse Beach",
+      "Coral Garden"
+    ],
+    "location": "Malapascua Island, Cebu, Central Visayas, Philippines"
+  },
+  {
+    "id": "kawasan-falls",
+    "name": "Kawasan Falls",
+    "province": "Cebu",
+    "region": "Central Visayas",
+    "category": "Surfing & Adventure",
+    "description": "Electric turquoise multi-tier waterfall in Badian, famous for adrenaline canyoneering cliff jumps.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Badian Canyoneering",
+      "Kawasan Tier 1 Waterfall",
+      "Hydro-Electric Dam Jump",
+      "Bamboo Raft Pool"
+    ],
+    "location": "Kawasan Falls, Cebu, Central Visayas, Philippines"
+  },
+  {
+    "id": "siquijor",
+    "name": "Siquijor Island",
+    "province": "Siquijor",
+    "region": "Central Visayas",
+    "category": "Beaches & Islands",
+    "description": "Enchanted Island of Fire featuring Cambugahay rope swings, Century-Old Balete Tree, and coral bays.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Cambugahay Falls",
+      "Tubod Marine Sanctuary",
+      "Paliton Beach Sunset",
+      "Century Balete Tree"
+    ],
+    "location": "Siquijor Island, Siquijor, Central Visayas, Philippines"
+  },
+  {
+    "id": "apo-island",
+    "name": "Apo Island",
+    "province": "Negros Oriental",
+    "region": "Central Visayas",
+    "category": "Diving & Marine Life",
+    "description": "Community-managed marine sanctuary renowned for snorkeling right alongside friendly sea turtles.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Sea Turtle Sanctuary",
+      "Rock Formation Point",
+      "Boluarte Lookout",
+      "Apo Island Lighthouse"
+    ],
+    "location": "Apo Island, Negros Oriental, Central Visayas, Philippines"
+  },
+  {
+    "id": "dumaguete",
+    "name": "Dumaguete City",
+    "province": "Negros Oriental",
+    "region": "Central Visayas",
+    "category": "Culture & Heritage",
+    "description": "The City of Gentle People, famous for Boulevard boardwalk, Siliman University, and Silvanas pastry.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "popularSpots": [
+      "Rizal Boulevard",
+      "Silliman University Campus",
+      "Belfry Tower",
+      "Pulangbato Falls"
+    ],
+    "location": "Dumaguete City, Negros Oriental, Central Visayas, Philippines"
+  },
+  {
+    "id": "manjuyod",
+    "name": "Manjuyod Sandbar",
+    "province": "Negros Oriental",
+    "region": "Central Visayas",
+    "category": "Beaches & Islands",
+    "description": "The Maldives of the Philippines, a 7-kilometer pristine white sandbar floating in Bais Bay.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Manjuyod Sandbar Cottages",
+      "Bais Bay Dolphin Watching",
+      "Bird Sanctuary",
+      "White Sand Strip"
+    ],
+    "location": "Manjuyod Sandbar, Negros Oriental, Central Visayas, Philippines"
+  },
+  {
+    "id": "lakawon",
+    "name": "Lakawon Island",
+    "province": "Negros Occidental",
+    "region": "Western Visayas",
+    "category": "Beaches & Islands",
+    "description": "Banana-shaped island resort featuring TawHai Floating Bar, the largest floating bar in Asia.",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "popularSpots": [
+      "TawHai Floating Bar",
+      "Lakawon White Beach",
+      "Water Trampoline",
+      "Sunset Lounge"
+    ],
+    "location": "Lakawon Island, Negros Occidental, Western Visayas, Philippines"
+  },
+  {
+    "id": "bacolod-ruins",
+    "name": "Bacolod City (The Ruins)",
+    "province": "Negros Occidental",
+    "region": "Western Visayas",
+    "category": "Culture & Heritage",
+    "description": "City of Smiles, famous for the Taj Mahal of Negros (The Ruins), MassKara Festival, and Inasal.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "The Ruins Mansion",
+      "Bacolod Public Plaza",
+      "Manokan Country Inasal",
+      "San Sebastian Cathedral"
+    ],
+    "location": "Bacolod City (The Ruins), Negros Occidental, Western Visayas, Philippines"
+  },
+  {
+    "id": "gigantes-islands",
+    "name": "Islas de Gigantes",
+    "province": "Iloilo",
+    "region": "Western Visayas",
+    "category": "Beaches & Islands",
+    "description": "Island group boasting Cabugao Gamay islet, Tangke saltwater lagoon, and cheap ₱1 scallops.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Cabugao Gamay Island",
+      "Tangke Saltwater Lagoon",
+      "Antonia Beach",
+      "Bantigue Sandbar"
+    ],
+    "location": "Islas de Gigantes, Iloilo, Western Visayas, Philippines"
+  },
+  {
+    "id": "guimaras",
+    "name": "Guimaras Island",
+    "province": "Guimaras",
+    "region": "Western Visayas",
+    "category": "Road Trips & Coastal",
+    "description": "Mango Capital of the Philippines, world-famous for producing the sweetest Carabao mangoes.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Guimaras Mango Plantations",
+      "Guisi Lighthouse Ruins",
+      "Alubihod Beach",
+      "SEAFDEC Marine Reserve"
+    ],
+    "location": "Guimaras Island, Guimaras, Western Visayas, Philippines"
+  },
+  {
+    "id": "kalanggaman",
+    "name": "Kalanggaman Island",
+    "province": "Leyte",
+    "region": "Eastern Visayas",
+    "category": "Beaches & Islands",
+    "description": "Stunning postcard island with a long, pristine white sandbar stretching out into crystal waters.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "popularSpots": [
+      "Long White Sandbar",
+      "Aqua Marine Reef",
+      "Palompon Eco Tour",
+      "Kayaking Lagoon"
+    ],
+    "location": "Kalanggaman Island, Leyte, Eastern Visayas, Philippines"
+  },
+  {
+    "id": "sambawan",
+    "name": "Sambawan Island",
+    "province": "Biliran",
+    "region": "Eastern Visayas",
+    "category": "Beaches & Islands",
+    "description": "Curved volcanic island chain surrounded by coral reefs and green grassy ridge lookouts.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Sambawan Ridge Viewpoint",
+      "Coral Diving Reef",
+      "Marine Sanctuary",
+      "Island Watchtower"
+    ],
+    "location": "Sambawan Island, Biliran, Eastern Visayas, Philippines"
+  },
+  {
+    "id": "sohoton-cove",
+    "name": "Sohoton Cove (Bucas Grande)",
+    "province": "Surigao del Norte",
+    "region": "Caraga",
+    "category": "Nature & Wildlife",
+    "description": "Mystical maze of limestone islets, stingless jellyfish sanctuaries, and submarine cave entryways.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Stingless Jellyfish Sanctuary",
+      "Hagukan Cave",
+      "Magkukuob Cave Jump",
+      "Titikit Islet Maze"
+    ],
+    "location": "Sohoton Cove (Bucas Grande), Surigao del Norte, Caraga, Philippines"
+  },
+  {
+    "id": "mayon-volcano",
+    "name": "Mayon Volcano",
+    "province": "Albay",
+    "region": "Bicol Region",
+    "category": "Surfing & Adventure",
+    "description": "World's most perfectly symmetrical stratovolcano, offering black lava trail ATV quad rides.",
+    "image": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "popularSpots": [
+      "Cagsawa Ruins View",
+      "Black Lava Trail ATV",
+      "Mayon Skyline Park",
+      "Quitinday Hills"
+    ],
+    "location": "Mayon Volcano, Albay, Bicol Region, Philippines"
+  },
+  {
+    "id": "caramoan",
+    "name": "Caramoan Peninsula",
+    "province": "Camarines Sur",
+    "region": "Bicol Region",
+    "category": "Beaches & Islands",
+    "description": "Rugged peninsula with limestone islands and hidden beaches, host location for Survivor TV shows.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Matukad Island Sandbar",
+      "Gota Beach",
+      "Lahos Island",
+      "Cotivas Sandbar"
+    ],
+    "location": "Caramoan Peninsula, Camarines Sur, Bicol Region, Philippines"
+  },
+  {
+    "id": "calaguas",
+    "name": "Calaguas Islands",
+    "province": "Camarines Norte",
+    "region": "Bicol Region",
+    "category": "Beaches & Islands",
+    "description": "Mahabang Buhangin beach featuring powdery white sand untouched by commercial development.",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Mahabang Buhangin Beach",
+      "Calaguas Camping Grounds",
+      "Tinaga Island",
+      "Sunset Hill"
+    ],
+    "location": "Calaguas Islands, Camarines Norte, Bicol Region, Philippines"
+  },
+  {
+    "id": "donsol-whalesharks",
+    "name": "Donsol Whale Shark Capital",
+    "province": "Sorsogon",
+    "region": "Bicol Region",
+    "category": "Diving & Marine Life",
+    "description": "Pioneer eco-tourism destination to swim alongside wild whale sharks (Butanding) in open sea.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Butanding Snorkeling",
+      "Firefly River Cruise",
+      "Donsol Eco Center",
+      "Astillero Beach"
+    ],
+    "location": "Donsol Whale Shark Capital, Sorsogon, Bicol Region, Philippines"
+  },
+  {
+    "id": "matnog-pink-beach",
+    "name": "Matnog Subic Pink Beach",
+    "province": "Sorsogon",
+    "region": "Bicol Region",
+    "category": "Beaches & Islands",
+    "description": "Unique pinkish sand beach tinted by crushed red pipe corals, situated at Luzon's southernmost tip.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "popularSpots": [
+      "Subic Grande Pink Beach",
+      "Tikling Island",
+      "Juag Lagoon Fish Sanctuary",
+      "Calintaan Cave"
+    ],
+    "location": "Matnog Subic Pink Beach, Sorsogon, Bicol Region, Philippines"
+  },
+  {
+    "id": "mt-dulang-dulang",
+    "name": "Mount Dulang-Dulang",
+    "province": "Bukidnon",
+    "region": "Northern Mindanao",
+    "category": "Mountain Getaways",
+    "description": "2nd highest mountain peak in the Philippines, famous for its magical Avatar-like mossy forest.",
+    "image": "https://images.unsplash.com/photo-1618083842247-f5d60927dfa9?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Avatar Mossy Forest",
+      "Kitanglad Mountain Range",
+      "Sacred Indigenous Peak",
+      "Manny's Trail"
+    ],
+    "location": "Mount Dulang-Dulang, Bukidnon, Northern Mindanao, Philippines"
+  },
+  {
+    "id": "puerto-galera",
+    "name": "Puerto Galera",
+    "province": "Oriental Mindoro",
+    "region": "MIMAROPA",
+    "category": "Diving & Marine Life",
+    "description": "UNESCO Biosphere Reserve featuring White Beach resorts, coral garden scuba diving, and waterfalls.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "popularSpots": [
+      "White Beach Puerto Galera",
+      "Sabang Reef Diving",
+      "Tamaraw Falls",
+      "Coral Garden Snorkeling"
+    ],
+    "location": "Puerto Galera, Oriental Mindoro, MIMAROPA, Philippines"
+  },
+  {
+    "id": "apo-reef",
+    "name": "Apo Reef Natural Park",
+    "province": "Occidental Mindoro",
+    "region": "MIMAROPA",
+    "category": "Diving & Marine Life",
+    "description": "World's 2nd largest contiguous coral reef system, packed with sharks, rays, and sea turtles.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+    "rating": 5.0,
+    "popularSpots": [
+      "Apo Island Reef Drop-off",
+      "Apo Reef Lighthouse",
+      "Mangrove Lagoon",
+      "Shark Ridge"
+    ],
+    "location": "Apo Reef Natural Park, Occidental Mindoro, MIMAROPA, Philippines"
+  },
+  {
+    "id": "tinipak-river",
+    "name": "Tinipak River & Cave",
+    "province": "Rizal",
+    "region": "Calabarzon",
+    "category": "Surfing & Adventure",
+    "description": "Crystal clear river flowing between white marble rock formations at the foot of Mt. Daraitan.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Tinipak White Marble River",
+      "Subterranean Cave Pool",
+      "Mt Daraitan Summit",
+      "Rock Bouldering"
+    ],
+    "location": "Tinipak River & Cave, Rizal, Calabarzon, Philippines"
+  },
+  {
+    "id": "masungi",
+    "name": "Masungi Georeserve",
+    "province": "Rizal",
+    "region": "Calabarzon",
+    "category": "Nature & Wildlife",
+    "description": "Conservation area built around 60-million-year-old limestone karsts, rope webs, and suspension bridges.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Sapot Giant Web",
+      "Tatlong Tatay Peak",
+      "Bayawak Rope Bridge",
+      "Limestone Sanctuary"
+    ],
+    "location": "Masungi Georeserve, Rizal, Calabarzon, Philippines"
+  },
+  {
+    "id": "baler",
+    "name": "Baler Surfing Capital",
+    "province": "Aurora",
+    "region": "Central Luzon",
+    "category": "Surfing & Adventure",
+    "description": "Historic birthland of Philippine surfing, featured in Apocalypse Now, famous for Sabang waves.",
+    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "popularSpots": [
+      "Sabang Beach Surfing",
+      "Millennium Balete Tree",
+      "Ditumabo Mother Falls",
+      "Diguisit Rock Formations"
+    ],
+    "location": "Baler Surfing Capital, Aurora, Central Luzon, Philippines"
+  },
+  {
+    "id": "palaui-island",
+    "name": "Palaui Island",
+    "province": "Cagayan",
+    "region": "Cagayan Valley",
+    "category": "Beaches & Islands",
+    "description": "Protected marine and nature reserve featuring Cape Engaño Lighthouse and Survivor TV setting.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "popularSpots": [
+      "Cape Engaño Lighthouse",
+      "Anguib Beach",
+      "Siwangag Cove",
+      "Dos Hermanas Islets"
+    ],
+    "location": "Palaui Island, Cagayan, Cagayan Valley, Philippines"
+  }
+]
