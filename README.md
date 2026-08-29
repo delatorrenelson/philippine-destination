@@ -50,25 +50,49 @@ Whether you are a **local adventurer (*Kababayans*)** exploring secret weekend s
 
 ```text
 philippine-destination/
-├── public/                 # Static assets & icons
+├── public/                 # Static public assets & favicons
 ├── src/
-│   ├── assets/             # Images, graphics, & media assets
-│   ├── components/         # Shared UI components (Navbar, Header, Footer, Button)
-│   ├── features/           # Feature-based modular components
-│   │   ├── auth/           # Authentication modal & forms
+│   ├── assets/             # Images, logos, & graphics
+│   ├── components/         # Global layout components & UI primitives
+│   │   ├── ui/             # Shadcn UI base components (Button.tsx)
+│   │   ├── Footer.tsx      # Global brand footer
+│   │   ├── Header.tsx      # Global header bar & logo
+│   │   └── Navbar.tsx      # Responsive navigation bar
+│   ├── features/           # Feature-based domain components
+│   │   ├── auth/           # Authentication modal & sign in forms
 │   │   ├── comments/       # Comment section & reader discussion threads
-│   │   ├── feed/           # Hero section, post cards feed, markdown reader
+│   │   ├── feed/           # Hero card, post grid feed, markdown reader
 │   │   ├── sidebar/        # Search widget, category list, tag cloud
-│   │   └── theme/          # Light/Dark mode toggle
+│   │   └── theme/          # Light/Dark mode toggle button
 │   ├── json/               # Mock datasets (destinations, users, articles, comments)
+│   ├── lib/                # Utility functions & helpers (utils.ts)
 │   ├── pages/              # Main application page views (.tsx)
-│   ├── types/              # TypeScript interface definitions
-│   ├── App.tsx             # Main router & app container
-│   └── main.tsx            # React application entry point
-├── package.json
-├── tsconfig.json
-├── tailwind.config.cjs
-└── vite.config.js
+│   │   ├── ArticleDetail.tsx # Single article reader view
+│   │   ├── Booking.tsx     # Tour reservation concierge
+│   │   ├── Contact.tsx     # Contact & community support
+│   │   ├── Destinations.tsx# Destination explorer & search
+│   │   ├── Home.tsx        # Homepage landing & featured stories
+│   │   ├── Hotels.tsx      # Staycations & resort guides
+│   │   ├── MyAccount.tsx   # User profile hub
+│   │   └── TravelInfo.tsx  # Backpacker travel guides
+│   ├── styles/             # Modular CSS stylesheets
+│   ├── types/              # TypeScript interface definitions (index.ts)
+│   ├── App.css             # Main application styles
+│   ├── App.tsx             # Main router & application container
+│   ├── index.css           # Tailwind & CSS variables design tokens
+│   ├── main.tsx            # Application entry point
+│   └── vite-env.d.ts       # Vite client & asset type declarations
+├── .gitignore              # Git ignore configuration
+├── index.html              # HTML entry template
+├── package.json            # Dependencies & scripts
+├── postcss.config.cjs      # PostCSS configuration
+├── README.md               # Project documentation
+├── Spec.md                 # Technical specification document
+├── tailwind.config.cjs     # Tailwind CSS theme configuration
+├── tsconfig.json           # TypeScript configuration
+├── tsconfig.node.json      # Vite node TypeScript configuration
+├── vercel.json             # Vercel deployment configuration
+└── vite.config.js          # Vite build configuration
 ```
 
 ---
