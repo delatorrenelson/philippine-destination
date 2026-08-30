@@ -11,10 +11,19 @@ export default defineConfig({
     },
     dedupe: ["react", "react-dom"],
   },
+  server: {
+    port: 5173,
+    proxy: {
+      "/api": {
+        target: "http://localhost:5000",
+        changeOrigin: true,
+      },
+    },
+  },
   optimizeDeps: {
-    include: ["react", "react-dom", "better-auth/react"],
+    exclude: ["mongodb", "better-auth", "express"],
   },
   ssr: {
-    external: ["better-sqlite3"],
+    external: ["mongodb", "express"],
   },
 });

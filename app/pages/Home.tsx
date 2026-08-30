@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import { places, categories } from "../json/destinations";
+import React, { useState, useEffect } from "react";
+import { categories } from "../json/destinations";
 import { HeroSection, PostFeed } from "../features/feed";
 import { Sidebar } from "../features/sidebar";
+import { Place } from "../types";
 
 interface HomeProps {
   searchQuery: string;
@@ -10,6 +11,20 @@ interface HomeProps {
 
 export default function Home({ searchQuery, onSearchChange }: HomeProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>("All Stories");
+  const [places, setPlaces] = useState<Place[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    fetch("/api/destinations/places")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data?.places && Array.isArray(data.places)) {
+          setPlaces(data.places);
+        }
+      })
+      .catch((err) => console.error("Error fetching places from MongoDB API:", err))
+      .finally(() => setLoading(false));
+  }, []);
 
   const featuredPost = places.find((p) => p.featured) || places[0];
 
@@ -29,7 +44,7 @@ export default function Home({ searchQuery, onSearchChange }: HomeProps) {
   return (
     <div className="py-8 max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
       {/* Featured Hero Section */}
-      {!searchQuery && selectedCategory === "All Stories" && (
+      {!searchQuery && selectedCategory === "All Stories" && featuredPost && (
         <HeroSection post={featuredPost} />
       )}
 
@@ -71,7 +86,13 @@ export default function Home({ searchQuery, onSearchChange }: HomeProps) {
       {/* Main Grid & Sidebar Layout */}
       <div className="flex flex-col lg:flex-row gap-10">
         <main className="flex-1">
-          <PostFeed posts={filteredPosts} itemsPerPage={6} />
+          {loading ? (
+            <div className="py-12 text-center text-xs text-gray-400 font-medium">
+              Loading destination stories from MongoDB...
+            </div>
+          ) : (
+            <PostFeed posts={filteredPosts} itemsPerPage={6} />
+          )}
         </main>
 
         <Sidebar

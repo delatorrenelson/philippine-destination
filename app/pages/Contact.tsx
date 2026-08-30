@@ -1,13 +1,41 @@
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Send, MessageSquare } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "../components/ui/button";
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState<boolean>(false);
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    if (!name.trim() || !email.trim() || !message.trim() || isSubmitting) return;
+
+    setIsSubmitting(true);
+    setErrorMsg(null);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      const data = await res.json();
+      if (res.ok && data.success) {
+        setSubmitted(true);
+      } else {
+        setErrorMsg(data.error || "Failed to submit message. Please try again.");
+      }
+    } catch (err) {
+      console.error("Error submitting contact form to MongoDB:", err);
+      setErrorMsg("Connection error. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -26,9 +54,15 @@ export default function Contact() {
         <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 border border-gray-100 dark:border-gray-800 shadow-sm space-y-6">
           <h3 className="text-xl font-bold text-gray-900 dark:text-white">Send Us a Message</h3>
 
+          {errorMsg && (
+            <div className="p-4 bg-red-50 text-red-700 rounded-xl text-xs font-medium">
+              {errorMsg}
+            </div>
+          )}
+
           {submitted ? (
             <div className="p-6 bg-emerald-50 dark:bg-emerald-950/40 rounded-2xl border border-emerald-200 text-emerald-800 dark:text-emerald-300 space-y-2">
-              <h4 className="font-bold text-sm">✓ Message Received!</h4>
+              <h4 className="font-bold text-sm">✓ Message Received & Saved!</h4>
               <p className="text-xs">Thank you for reaching out. Our team will respond within 24 hours.</p>
             </div>
           ) : (
@@ -38,6 +72,8 @@ export default function Contact() {
                 <input
                   type="text"
                   required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   placeholder="Your Name"
                   className="w-full px-4 py-2.5 text-xs bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 />
@@ -48,6 +84,8 @@ export default function Contact() {
                 <input
                   type="email"
                   required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="name@example.com"
                   className="w-full px-4 py-2.5 text-xs bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 />
@@ -58,14 +96,16 @@ export default function Contact() {
                 <textarea
                   rows={4}
                   required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   placeholder="Ask a question or suggest a new island destination..."
                   className="w-full px-4 py-2.5 text-xs bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 />
               </div>
 
-              <Button type="submit" className="w-full py-3 font-bold rounded-xl shadow-md">
+              <Button type="submit" disabled={isSubmitting} className="w-full py-3 font-bold rounded-xl shadow-md">
                 <Send className="w-4 h-4 mr-2" />
-                <span>Send Message</span>
+                <span>{isSubmitting ? "Sending..." : "Send Message"}</span>
               </Button>
             </form>
           )}

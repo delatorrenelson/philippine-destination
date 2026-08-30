@@ -13,14 +13,17 @@ export interface User {
 export interface Destination {
   id: string;
   name: string;
-  province: string;
+  province?: string;
   region: string;
-  category: string;
+  islandGroup?: string;
+  category?: string;
   description: string;
-  image: string;
+  image?: string;
+  heroImage?: string;
   rating: number;
-  popularSpots: string[];
-  location: string;
+  popularSpots?: string[];
+  topAttractions?: Array<{ name: string; type?: string; description?: string }>;
+  location?: string;
 }
 
 export interface ArticleAuthor {
@@ -37,7 +40,7 @@ export interface Article {
   destinationName: string;
   location: string;
   category: string;
-  authorId: string;
+  authorId?: string;
   author: ArticleAuthor;
   excerpt: string;
   fullContent: string;

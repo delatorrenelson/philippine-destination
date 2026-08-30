@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Search, User, Compass, LogOut, UserCheck } from "lucide-react";
 import { Link } from "react-router";
 import logo from "../assets/images/logo.png";
@@ -6,6 +6,9 @@ import { AuthModal } from "../features/auth";
 import { ThemeToggle } from "../features/theme";
 import { Button } from "./ui/button";
 import { useSession, signOut } from "../lib/auth-client";
+import { useAppDispatch, useAppSelector } from "../store/hooks";
+import { setSearchQuery } from "../store/destinationsSlice";
+import { setUser, clearUser } from "../store/authSlice";
 
 interface HeaderProps {
   onSearch?: (query: string) => void;
@@ -13,16 +16,38 @@ interface HeaderProps {
 
 export default function Header({ onSearch }: HeaderProps) {
   const [isAuthOpen, setIsAuthOpen] = useState<boolean>(false);
-  const [query, setQuery] = useState<string>("");
+  const dispatch = useAppDispatch();
+  const searchQuery = useAppSelector((state) => state.destinations.searchQuery);
   const session = useSession();
+
+  useEffect(() => {
+    if (session.data?.user) {
+      dispatch(
+        setUser({
+          id: session.data.user.id,
+          name: session.data.user.name,
+          email: session.data.user.email,
+          image: session.data.user.image || undefined,
+        })
+      );
+    } else {
+      dispatch(clearUser());
+    }
+  }, [session.data?.user, dispatch]);
+
+  const handleSearchChange = (val: string) => {
+    dispatch(setSearchQuery(val));
+    if (onSearch) onSearch(val);
+  };
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (onSearch) onSearch(query);
+    if (onSearch) onSearch(searchQuery);
   };
 
   const handleSignOut = async () => {
     await signOut();
+    dispatch(clearUser());
   };
 
   const user = session.data?.user;
@@ -52,11 +77,8 @@ export default function Header({ onSearch }: HeaderProps) {
             <form onSubmit={handleSearchSubmit} className="relative flex-1 md:w-64">
               <input
                 type="text"
-                value={query}
-                onChange={(e) => {
-                  setQuery(e.target.value);
-                  if (onSearch) onSearch(e.target.value);
-                }}
+                value={searchQuery}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 placeholder="Search islands, beaches, spots..."
                 className="w-full pl-9 pr-4 py-2 text-xs sm:text-sm bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white rounded-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white dark:focus:bg-gray-900 transition-all"
               />

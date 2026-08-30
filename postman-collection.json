@@ -1,0 +1,369 @@
+{
+  "info": {
+    "name": "Philippine Destination Express API",
+    "description": "Postman collection for testing the Express.js & MongoDB Atlas API endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5000",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "item": [
+        {
+          "name": "Get API Health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "health"
+              ]
+            },
+            "description": "Check if Express API server is running."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Destinations & Stories",
+      "item": [
+        {
+          "name": "Get All Destinations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/destinations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "destinations"
+              ]
+            },
+            "description": "Fetch all tourist destinations from MongoDB."
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Articles",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/destinations/articles",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "destinations",
+                "articles"
+              ]
+            },
+            "description": "Fetch all travel guide articles from MongoDB."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Formatted Places Feed",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/destinations/places",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "destinations",
+                "places"
+              ]
+            },
+            "description": "Fetch place feeds formatted for Home and Article Detail pages."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Comments",
+      "item": [
+        {
+          "name": "Get All Comments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "comments"
+              ]
+            },
+            "description": "Fetch all reader comments from MongoDB."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Comments By Article ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/comments?articleId=art-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "comments"
+              ],
+              "query": [
+                {
+                  "key": "articleId",
+                  "value": "art-001"
+                }
+              ]
+            },
+            "description": "Fetch comments filtered for a specific article."
+          },
+          "response": []
+        },
+        {
+          "name": "Post New Comment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"articleId\": \"art-001\",\n  \"destinationId\": \"boracay\",\n  \"author\": \"Juan Dela Cruz\",\n  \"text\": \"Boracay is truly breathtaking! Highly recommend White Beach sunset.\",\n  \"avatar\": \"https://i.pravatar.cc/150?img=12\",\n  \"userId\": \"user-123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "comments"
+              ]
+            },
+            "description": "Submit a new comment to MongoDB."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Bookings & Contact",
+      "item": [
+        {
+          "name": "Submit Tour Booking",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"destinationId\": \"boracay\",\n  \"destinationName\": \"Boracay Island\",\n  \"fullName\": \"Maria Santos\",\n  \"email\": \"maria@example.com\",\n  \"phone\": \"+639171234567\",\n  \"guests\": 2,\n  \"startDate\": \"2026-10-15\",\n  \"notes\": \"Looking forward to island hopping tour!\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/booking",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "booking"
+              ]
+            },
+            "description": "Submit a tour reservation."
+          },
+          "response": []
+        },
+        {
+          "name": "Submit Contact Message",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Alex Johnson\",\n  \"email\": \"alex@example.com\",\n  \"subject\": \"Custom Itinerary Inquiry\",\n  \"message\": \"Hi, I would like to inquire about a 7-day Palawan tour itinerary.\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/contact",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "contact"
+              ]
+            },
+            "description": "Submit a message via the contact form."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Authentication (BetterAuth)",
+      "item": [
+        {
+          "name": "Sign Up (Email)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Origin",
+                "value": "http://localhost:5173"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Test Traveler\",\n  \"email\": \"traveler@example.com\",\n  \"password\": \"password123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/sign-up/email",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "sign-up",
+                "email"
+              ]
+            },
+            "description": "Register a new user account with BetterAuth."
+          },
+          "response": []
+        },
+        {
+          "name": "Sign In (Email)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Origin",
+                "value": "http://localhost:5173"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"admin2@email.com\",\n  \"password\": \"admin2\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/sign-up/email",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "sign-in",
+                "email"
+              ]
+            },
+            "description": "Sign in with existing user credentials."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Current Session",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Origin",
+                "value": "http://localhost:5173"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/get-session",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "get-session"
+              ]
+            },
+            "description": "Query current authenticated user session."
+          },
+          "response": []
+        },
+        {
+          "name": "Sign Out",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Origin",
+                "value": "http://localhost:5173"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/sign-out",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "sign-out"
+              ]
+            },
+            "description": "Sign out current session."
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Provider } from "react-redux";
 import {
   Links,
   Meta,
@@ -11,6 +12,7 @@ import {
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { store } from "./store/store";
 
 import stylesheet from "./index.css?url";
 
@@ -51,14 +53,16 @@ export default function App() {
   const [globalSearch, setGlobalSearch] = useState<string>("");
 
   return (
-    <div className="App min-h-screen bg-gray-50/50 dark:bg-gray-950 text-gray-900 dark:text-white flex flex-col font-sans">
-      <Header onSearch={setGlobalSearch} />
-      <Navbar />
-      <main className="flex-1">
-        <Outlet context={{ globalSearch, setGlobalSearch } satisfies RootOutletContext} />
-      </main>
-      <Footer />
-    </div>
+    <Provider store={store}>
+      <div className="App min-h-screen bg-gray-50/50 dark:bg-gray-950 text-gray-900 dark:text-white flex flex-col font-sans">
+        <Header onSearch={setGlobalSearch} />
+        <Navbar />
+        <main className="flex-1">
+          <Outlet context={{ globalSearch, setGlobalSearch } satisfies RootOutletContext} />
+        </main>
+        <Footer />
+      </div>
+    </Provider>
   );
 }
 

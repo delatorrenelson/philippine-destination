@@ -1,21 +1,45 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router";
 import { MapPin, Clock, ArrowLeft, Tag, Calendar } from "lucide-react";
-import { places, categories } from "../json/destinations";
+import { categories } from "../json/destinations";
 import { Sidebar } from "../features/sidebar";
 import { CommentSection } from "../features/comments";
 import { MarkdownContent } from "../features/feed";
 import { Button } from "../components/ui/button";
+import { Place } from "../types";
 
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80";
 
 export default function ArticleDetail() {
   const { id } = useParams<{ id: string }>();
-  const post = places.find((p) => p.id === id) || places[0];
+  const [places, setPlaces] = useState<Place[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [id]);
+
+  useEffect(() => {
+    fetch("/api/destinations/places")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data?.places && Array.isArray(data.places)) {
+          setPlaces(data.places);
+        }
+      })
+      .catch((err) => console.error("Error fetching places from MongoDB API:", err))
+      .finally(() => setLoading(false));
+  }, []);
+
+  const post = places.find((p) => p.id === id || p.articleId === id) || places[0];
+
+  if (loading) {
+    return (
+      <div className="py-20 text-center text-xs text-gray-400 font-medium">
+        Loading story details from MongoDB...
+      </div>
+    );
+  }
 
   if (!post) {
     return (
@@ -124,7 +148,7 @@ export default function ArticleDetail() {
           </article>
 
           {/* Comment Section Component */}
-          <CommentSection initialComments={post.comments || []} />
+          <CommentSection initialComments={post.comments || []} articleId={post.articleId} />
         </main>
 
         {/* Sidebar */}
