@@ -9,5 +9,12 @@ export default defineConfig({
       "~": path.resolve(__dirname, "./app"),
       "@": path.resolve(__dirname, "./app"),
     },
+    dedupe: ["react", "react-dom"],
+  },
+  optimizeDeps: {
+    include: ["react", "react-dom", "better-auth/react"],
+  },
+  ssr: {
+    external: ["better-sqlite3"],
   },
 });

@@ -10,5 +10,6 @@ export default [
   route("hotels", "routes/hotels.tsx"),
   route("my-account", "routes/my-account.tsx"),
   route("contact", "routes/contact.tsx"),
+  route("api/auth/*", "routes/api.auth.ts"),
   route("*", "routes/not-found.tsx"),
 ] satisfies RouteConfig;

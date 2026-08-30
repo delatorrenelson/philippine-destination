@@ -24,3 +24,11 @@ build
 *.njsproj
 *.sln
 *.sw?
+
+# Environment & Database
+.env
+.env.*
+*.db
+*.sqlite
+sqlite.db
+
