@@ -39,8 +39,22 @@ app.get("/api/health", (_req, res) => {
   res.json({ status: "ok", message: "Philippine Destination Express API Server Running" });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Express API server listening on http://localhost:${PORT}`);
-});
+// React Router v7 SSR Request Handler in Production
+if (process.env.NODE_ENV === "production") {
+  const { createRequestHandler } = require("@react-router/express");
+  app.use(
+    "*",
+    createRequestHandler({
+      // @ts-ignore
+      build: () => import("../build/server/index.js"),
+    })
+  );
+}
+
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`🚀 Express API server listening on http://localhost:${PORT}`);
+  });
+}
 
 export default app;
