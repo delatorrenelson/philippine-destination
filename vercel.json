@@ -3,9 +3,7 @@
   "outputDirectory": "build/client",
   "functions": {
     "api/index.ts": {
-      "includeFiles": [
-        "build/server/**/*"
-      ]
+      "includeFiles": "build/server/**"
     }
   },
   "rewrites": [
