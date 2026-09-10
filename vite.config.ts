@@ -21,7 +21,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    exclude: ["mongodb", "better-auth", "express"],
+    exclude: ["mongodb", "better-auth", "express", "@repo/shared"],
   },
   ssr: {
     external: ["mongodb", "express"],
