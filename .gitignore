@@ -32,3 +32,5 @@ build
 *.sqlite
 sqlite.db
 
+.vercel
+.env*
