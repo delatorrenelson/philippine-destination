@@ -9,12 +9,7 @@
     "dev": "concurrently -k -n \"API,VITE\" -c \"blue,green\" \"npm run dev:api\" \"npm run dev:frontend\"",
     "build": "react-router build",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc",
-    "db:seed": "npx tsx scripts/seed-mongodb.ts",
-    "db:view": "npx tsx scripts/view-db.ts",
-    "db:cleanup": "npx tsx scripts/sync-db.ts",
-    "db:sync-atlas": "npx tsx scripts/sync-to-atlas.ts",
-    "postman:generate": "npx tsx scripts/generate-postman.ts"
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
