@@ -1,11 +1,17 @@
 import mongoose from "mongoose";
 import { MongoClient, Db } from "mongodb";
 
-const MONGODB_URI =
-  process.env.ATLAS_MONGODB_URI ||
-  process.env.MONGODB_URI ||
-  process.env.MONGODB_URL ||
-  "mongodb://localhost:27017/philippine_destination";
+// Dev: use local MongoDB
+// Preview/Production: use Atlas via ATLAS_MONGODB_URI or MONGODB_URI (set in Vercel env vars)
+const IS_DEV = process.env.NODE_ENV === "development" || (!process.env.NODE_ENV && !process.env.VERCEL);
+
+const MONGODB_URI = IS_DEV
+  ? (process.env.MONGODB_URI || "mongodb://localhost:27017/philippine_destination")
+  : (process.env.ATLAS_MONGODB_URI || process.env.MONGODB_URI || "mongodb://localhost:27017/philippine_destination");
+
+if (!MONGODB_URI.includes("philippine_destination") && !MONGODB_URI.includes("mongodb+srv")) {
+  console.warn("⚠️  MONGODB_URI does not target 'philippine_destination' — check your env vars.");
+}
 
 declare global {
   var _mongooseCache: {
@@ -31,6 +37,7 @@ export async function connectDB(): Promise<typeof mongoose> {
       .connect(MONGODB_URI, {
         bufferCommands: false,
         serverSelectionTimeoutMS: 5000,
+        dbName: "philippine_destination",
       })
       .then((m) => m);
   }
@@ -55,4 +62,4 @@ function getMongoClient(): MongoClient {
 }
 
 export const client: MongoClient = getMongoClient();
-export const db: Db = getMongoClient().db();
+export const db: Db = getMongoClient().db("philippine_destination");

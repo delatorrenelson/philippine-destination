@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router";
 import { MapPin, Clock, ArrowLeft, Tag, Calendar } from "lucide-react";
-import { categories } from "../json/destinations";
+import { categories } from "../lib/categories";
 import { Sidebar } from "../features/sidebar";
 import { CommentSection } from "../features/comments";
 import { MarkdownContent } from "../features/feed";

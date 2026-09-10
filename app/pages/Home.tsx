@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { categories } from "../json/destinations";
+import { categories } from "../lib/categories";
 import { HeroSection, PostFeed } from "../features/feed";
 import { Sidebar } from "../features/sidebar";
 import { Place } from "../types";

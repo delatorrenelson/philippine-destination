@@ -1,3 +1,4 @@
+// Shared category constants — sourced from DB schema, used for UI filters
 export const categories: string[] = [
   "All Stories",
   "Beaches & Islands",

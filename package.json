@@ -12,7 +12,7 @@
     "typecheck": "react-router typegen && tsc",
     "db:seed": "npx tsx scripts/seed-mongodb.ts",
     "db:view": "npx tsx scripts/view-db.ts",
-    "db:sync": "npx tsx scripts/sync-db.ts",
+    "db:cleanup": "npx tsx scripts/sync-db.ts",
     "db:sync-atlas": "npx tsx scripts/sync-to-atlas.ts",
     "postman:generate": "npx tsx scripts/generate-postman.ts"
   },
