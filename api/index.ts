@@ -1,12 +1,12 @@
 import express from "express";
 import cors from "cors";
-import { connectDB } from "../app/lib/db.js";
+import { connectDB } from "../app/lib/db";
 
-import authRouter from "./routes/auth.js";
-import commentsRouter from "./routes/comments.js";
-import contactRouter from "./routes/contact.js";
-import bookingRouter from "./routes/booking.js";
-import destinationsRouter from "./routes/destinations.js";
+import authRouter from "./routes/auth";
+import commentsRouter from "./routes/comments";
+import contactRouter from "./routes/contact";
+import bookingRouter from "./routes/booking";
+import destinationsRouter from "./routes/destinations";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
