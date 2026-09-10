@@ -1,7 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "build/client",
-  "Description": "Vercel configuration for React Router v7 and Express API",
   "rewrites": [
     {
       "source": "/api/(.*)",

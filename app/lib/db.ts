@@ -2,9 +2,10 @@ import mongoose from "mongoose";
 import { MongoClient, Db } from "mongodb";
 
 const MONGODB_URI =
+  process.env.ATLAS_MONGODB_URI ||
   process.env.MONGODB_URI ||
   process.env.MONGODB_URL ||
-  "mongodb://localhost:27017/philippine-destination";
+  "mongodb://localhost:27017/philippine_destination";
 
 declare global {
   var _mongooseCache: {
