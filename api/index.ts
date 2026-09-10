@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { connectDB } from "../app/lib/db";
+import { connectDB } from "../app/lib/db.ts";
 
 import authRouter from "./routes/auth";
 import commentsRouter from "./routes/comments";
