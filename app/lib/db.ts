@@ -12,6 +12,7 @@ declare global {
     conn: typeof mongoose | null;
     promise: Promise<typeof mongoose> | null;
   } | undefined;
+  var _mongoClientCache: MongoClient | undefined;
 }
 
 let cached = globalThis._mongooseCache;
@@ -29,6 +30,7 @@ export async function connectDB(): Promise<typeof mongoose> {
     cached!.promise = mongoose
       .connect(MONGODB_URI, {
         bufferCommands: false,
+        serverSelectionTimeoutMS: 5000,
       })
       .then((m) => m);
   }
@@ -43,10 +45,14 @@ export async function connectDB(): Promise<typeof mongoose> {
   return cached!.conn;
 }
 
-// Initialize connection asynchronously
-connectDB().catch((err) => console.error("Mongoose initial connection error:", err));
+function getMongoClient(): MongoClient {
+  if (!globalThis._mongoClientCache) {
+    globalThis._mongoClientCache = new MongoClient(MONGODB_URI, {
+      serverSelectionTimeoutMS: 5000,
+    });
+  }
+  return globalThis._mongoClientCache;
+}
 
-// Fallback native client and db for BetterAuth adapter compatibility
-const fallbackClient = new MongoClient(MONGODB_URI);
-export const client: MongoClient = fallbackClient;
-export const db: Db = fallbackClient.db();
+export const client: MongoClient = getMongoClient();
+export const db: Db = getMongoClient().db();
