@@ -1,4 +1,4 @@
-import { auth } from "../db";
+import { auth } from "../api/db/index.js";
 
 async function seedAdminUser() {
   console.log("Seeding test user...");

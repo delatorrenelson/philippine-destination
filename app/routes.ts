@@ -10,9 +10,5 @@ export default [
   route("hotels", "routes/hotels.tsx"),
   route("my-account", "routes/my-account.tsx"),
   route("contact", "routes/contact.tsx"),
-  route("api/auth/*", "routes/api.auth.ts"),
-  route("api/comments", "routes/api.comments.ts"),
-  route("api/contact", "routes/api.contact.ts"),
-  route("api/booking", "routes/api.booking.ts"),
   route("*", "routes/not-found.tsx"),
 ] satisfies RouteConfig;

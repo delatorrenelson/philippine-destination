@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true,
     "resolveJsonModule": true,
     "noEmit": true,
-    "baseUrl": "..",
+    "baseUrl": ".",
     "paths": {
       "@db": [
-        "./db/index.ts"
+        "./db/index.js"
       ],
       "@db/*": [
         "./db/*"
@@ -19,7 +19,6 @@
     }
   },
   "include": [
-    "./**/*.ts",
-    "../db/**/*.ts"
+    "./**/*.ts"
   ]
 }

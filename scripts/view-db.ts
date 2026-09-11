@@ -1,4 +1,4 @@
-import { db, client } from "../db";
+import { db, client } from "../api/db/index.js";
 
 async function viewDatabase() {
   console.log("=========================================");

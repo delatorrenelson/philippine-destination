@@ -8,7 +8,7 @@ export default defineConfig({
     alias: {
       "~": path.resolve(__dirname, "./app"),
       "@": path.resolve(__dirname, "./app"),
-      "@db": path.resolve(__dirname, "./db"),
+      "@db": path.resolve(__dirname, "./api/db"),
     },
     dedupe: ["react", "react-dom"],
   },

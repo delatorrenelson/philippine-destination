@@ -19,10 +19,10 @@
     "baseUrl": ".",
     "paths": {
       "@db": [
-        "./db/index.ts"
+        "./api/db/index.ts"
       ],
       "@db/*": [
-        "./db/*"
+        "./api/db/*"
       ],
       "~/*": [
         "./app/*"
@@ -37,13 +37,9 @@
     ]
   },
   "include": [
-    "db/**/*",
     "app/**/*",
     "scripts/**/*",
     ".react-router/types/**/*",
     "vite.config.ts"
-  ],
-  "exclude": [
-    "api/**/*"
   ]
 }

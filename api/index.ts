@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
-import { connectDB } from "@db";
-import authRouter from "./routes/auth";
-import commentsRouter from "./routes/comments";
-import contactRouter from "./routes/contact";
-import bookingRouter from "./routes/booking";
-import destinationsRouter from "./routes/destinations";
+import { connectDB } from "./db/index.js";
+import authRouter from "./routes/auth.js";
+import commentsRouter from "./routes/comments.js";
+import contactRouter from "./routes/contact.js";
+import bookingRouter from "./routes/booking.js";
+import destinationsRouter from "./routes/destinations.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -44,14 +44,18 @@ app.get("/api/health", (_req, res) => {
 
 // React Router v7 SSR Request Handler in Production
 if (process.env.NODE_ENV === "production") {
-  const { createRequestHandler } = require("@react-router/express");
-  app.use(
-    "*",
-    createRequestHandler({
-      // @ts-ignore
-      build: () => import("../build/server/index.js"),
-    })
-  );
+  try {
+    const { createRequestHandler } = await import("@react-router/express");
+    app.use(
+      "*",
+      createRequestHandler({
+        // @ts-ignore
+        build: () => import("../build/server/index.js"),
+      })
+    );
+  } catch (err) {
+    console.warn("React Router SSR handler deferred or build not available yet:", err);
+  }
 }
 
 if (!process.env.VERCEL) {

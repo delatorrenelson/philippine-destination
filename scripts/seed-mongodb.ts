@@ -1,4 +1,4 @@
-import { auth, connectDB, client, DestinationModel, ArticleModel, CommentModel } from "../db";
+import { auth, connectDB, client, DestinationModel, ArticleModel, CommentModel } from "../api/db/index.js";
 
 async function seedMongoDB() {
   console.log("Checking MongoDB Atlas database collections via Mongoose...");
