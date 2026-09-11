@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { connectDB } from "../../app/lib/db.js";
+import { connectDB } from "../../app/lib/db";
 import { BookingModel } from "../../app/models/Booking";
 
 const router = Router();

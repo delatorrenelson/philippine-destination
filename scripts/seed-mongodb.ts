@@ -1,5 +1,5 @@
 import { auth } from "../app/lib/auth";
-import { connectDB, client } from "../app/lib/db.js";
+import { connectDB, client } from "../app/lib/db";
 import { DestinationModel } from "../app/models/Destination";
 import { ArticleModel } from "../app/models/Article";
 import { CommentModel } from "../app/models/Comment";
