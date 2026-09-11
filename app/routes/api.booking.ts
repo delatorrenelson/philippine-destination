@@ -1,5 +1,5 @@
 import type { ActionFunctionArgs } from "react-router";
-import { connectDB } from "../lib/db";
+import { connectDB } from "../lib/db.js";
 import { BookingModel } from "../models/Booking";
 
 export async function action({ request }: ActionFunctionArgs) {
