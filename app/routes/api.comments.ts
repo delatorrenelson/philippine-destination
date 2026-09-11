@@ -1,5 +1,5 @@
 import type { LoaderFunctionArgs, ActionFunctionArgs } from "react-router";
-import { connectDB } from "../lib/db";
+import { connectDB } from "../lib/db.js";
 import { CommentModel } from "../models/Comment";
 
 export async function loader({ request }: LoaderFunctionArgs) {

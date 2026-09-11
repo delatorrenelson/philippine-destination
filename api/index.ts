@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { connectDB } from "../app/lib/db";
+import { connectDB } from "../app/lib/db.js";
 import authRouter from "./routes/auth";
 import commentsRouter from "./routes/comments";
 import contactRouter from "./routes/contact";
