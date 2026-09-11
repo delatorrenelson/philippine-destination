@@ -1,6 +1,5 @@
 import type { ActionFunctionArgs } from "react-router";
-import { connectDB } from "../lib/db";
-import { ContactModel } from "../models/Contact";
+import { connectDB, ContactModel } from "@db";
 
 export async function action({ request }: ActionFunctionArgs) {
   if (request.method !== "POST") {

@@ -1,6 +1,5 @@
 import { Router, Request, Response } from "express";
-import { connectDB } from "../../app/lib/db";
-import { ContactModel } from "../../app/models/Contact";
+import { connectDB, ContactModel } from "@db";
 
 const router = Router();
 

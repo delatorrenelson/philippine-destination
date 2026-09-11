@@ -1,8 +1,5 @@
 import { Router, Request, Response } from "express";
-import { connectDB } from "../../app/lib/db";
-import { DestinationModel } from "../../app/models/Destination";
-import { ArticleModel } from "../../app/models/Article";
-import { CommentModel } from "../../app/models/Comment";
+import { connectDB, DestinationModel, ArticleModel, CommentModel } from "@db";
 
 const router = Router();
 

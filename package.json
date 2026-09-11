@@ -2,14 +2,14 @@
   "name": "philippine-destination",
   "private": true,
   "version": "0.0.0",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev:frontend": "react-router dev",
     "dev:api": "npx tsx --env-file=.env api/index.ts",
     "dev": "concurrently -k -n \"API,VITE\" -c \"blue,green\" \"npm run dev:api\" \"npm run dev:frontend\"",
     "build": "react-router build",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc -p tsconfig.json && tsc -p api/tsconfig.json"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",

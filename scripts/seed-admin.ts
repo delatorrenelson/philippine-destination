@@ -1,4 +1,4 @@
-import { auth } from "../app/lib/auth";
+import { auth } from "../db";
 
 async function seedAdminUser() {
   console.log("Seeding test user...");

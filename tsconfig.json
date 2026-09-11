@@ -18,6 +18,12 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
+      "@db": [
+        "./db/index.ts"
+      ],
+      "@db/*": [
+        "./db/*"
+      ],
       "~/*": [
         "./app/*"
       ],
@@ -31,7 +37,9 @@
     ]
   },
   "include": [
+    "db/**/*",
     "app/**/*",
+    "scripts/**/*",
     ".react-router/types/**/*",
     "vite.config.ts"
   ],

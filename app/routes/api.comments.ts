@@ -1,6 +1,5 @@
 import type { LoaderFunctionArgs, ActionFunctionArgs } from "react-router";
-import { connectDB } from "../lib/db";
-import { CommentModel } from "../models/Comment";
+import { connectDB, CommentModel } from "@db";
 
 export async function loader({ request }: LoaderFunctionArgs) {
   const url = new URL(request.url);
