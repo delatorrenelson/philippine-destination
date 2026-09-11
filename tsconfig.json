@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "ES2022",
     "useDefineForClassFields": true,
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "module": "ESNext",
     "skipLibCheck": true,
     "moduleResolution": "bundler",
@@ -14,10 +18,24 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"],
-      "@/*": ["./app/*"]
+      "~/*": [
+        "./app/*"
+      ],
+      "@/*": [
+        "./app/*"
+      ]
     },
-    "rootDirs": [".", "./.react-router/types"]
+    "rootDirs": [
+      ".",
+      "./.react-router/types"
+    ]
   },
-  "include": ["app/**/*", ".react-router/types/**/*"]
+  "include": [
+    "app/**/*",
+    ".react-router/types/**/*",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "api/**/*"
+  ]
 }

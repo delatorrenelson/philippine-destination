@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "resolveJsonModule": true,
+        "noEmit": true
+    },
+    "include": [
+        "./**/*.ts",
+        "../app/lib/db.ts",
+        "../app/lib/auth.ts",
+        "../app/models/**/*.ts"
+    ]
+}
