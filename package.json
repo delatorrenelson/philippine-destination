@@ -2,7 +2,7 @@
   "name": "philippine-destination",
   "private": true,
   "version": "0.0.0",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev:frontend": "react-router dev",
     "dev:api": "npx tsx --env-file=.env api/index.ts",
