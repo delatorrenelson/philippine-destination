@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "paths": {
+      "@db": ["./api/db/index.ts"],
+      "@db/*": ["./api/db/*"],
+      "~/*": ["./app/*"],
+      "@/*": ["./app/*"]
+    },
+    "rootDirs": [".", "./.react-router/types"]
+  },
+  "include": [
+    "app/**/*",
+    "scripts/**/*",
+    ".react-router/types/**/*",
+    "vite.config.ts"
+  ]
+}

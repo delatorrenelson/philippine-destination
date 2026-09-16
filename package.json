@@ -4,45 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:frontend": "react-router dev",
-    "dev:api": "npx tsx --env-file=.env api/index.ts",
-    "dev": "concurrently -k -n \"API,VITE\" -c \"blue,green\" \"npm run dev:api\" \"npm run dev:frontend\"",
-    "build": "react-router build",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc -p tsconfig.json && tsc -p api/tsconfig.json"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
   },
-  "dependencies": {
-    "@reduxjs/toolkit": "^2.12.0",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "better-auth": "^1.7.2",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "concurrently": "^10.0.5",
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "isbot": "^5.1.22",
-    "lucide-react": "^0.475.0",
-    "mongodb": "^7.6.0",
-    "mongoose": "^9.9.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-redux": "^9.3.0",
-    "react-router": "^7.2.0",
-    "tailwind-merge": "^3.0.1"
-  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "devDependencies": {
-    "@react-router/dev": "^7.2.0",
-    "@react-router/node": "^7.18.3",
-    "@react-router/serve": "^7.18.3",
-    "@types/node": "^22.20.1",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.5",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.2",
-    "tailwindcss": "^3.4.17",
-    "tsx": "^4.23.13",
-    "typescript": "^5.7.3",
-    "vite": "^6.1.0"
+    "@types/node": "^26.5.1",
+    "turbo": "^2.10.12"
   }
 }
