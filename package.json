@@ -13,7 +13,7 @@
   "devEngines": {
     "packageManager": {
       "name": "npm",
-      "version": "10.8.2"
+      "version": ">=10.8.2"
     }
   },
   "workspaces": [
@@ -22,6 +22,7 @@
   ],
   "devDependencies": {
     "@types/node": "^26.5.1",
-    "turbo": "^2.10.12"
+    "turbo": "^2.10.12",
+    "vite": "^7.3.6"
   }
 }

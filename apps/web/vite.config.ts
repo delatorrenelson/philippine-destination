@@ -1,14 +1,15 @@
 import { reactRouter } from "@react-router/dev/vite";
+import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 import path from "path";
 
 export default defineConfig({
-  plugins: [reactRouter()],
+  plugins: [tailwindcss(), reactRouter()],
   resolve: {
     alias: {
-      "~": path.resolve(__dirname, "./app"),
-      "@": path.resolve(__dirname, "./app"),
-      "@db": path.resolve(__dirname, "./api/db"),
+      "~": path.resolve(import.meta.dirname, "./app"),
+      "@": path.resolve(import.meta.dirname, "./app"),
+      "@db": path.resolve(import.meta.dirname, "./api/db"),
     },
     dedupe: ["react", "react-dom"],
   },
@@ -28,3 +29,4 @@ export default defineConfig({
     external: ["mongodb", "express"],
   },
 });
+

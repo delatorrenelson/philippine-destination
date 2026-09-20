@@ -1,7 +1,7 @@
 import type { Config } from "@react-router/dev/config";
+import { vercelPreset } from "@vercel/react-router/vite";
 
 export default {
-  // Config options...
-  // Server-side rendering enabled
   ssr: true,
+  presets: [vercelPreset()],
 } satisfies Config;

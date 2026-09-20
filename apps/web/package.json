@@ -8,6 +8,7 @@
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
+  "engines": { "node": "22.x" },
   "dependencies": {
     "@react-router/node": "^8",
     "@react-router/serve": "^8",

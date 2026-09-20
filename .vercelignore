@@ -1,0 +1,11 @@
+.git
+node_modules
+**/node_modules
+.turbo
+**/.turbo
+build
+**/build
+dist
+**/dist
+.react-router
+**/.react-router
